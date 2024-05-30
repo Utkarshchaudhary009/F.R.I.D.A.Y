@@ -1,0 +1,100 @@
+{
+    "intents": [
+      {
+        "tag": "open_application",
+        "patterns": {
+          "regex": "\\b(open|launch|start)\\s+(\\w+)",
+          "NLPPattern": ["open PowerPoint", "launch PowerPoint", "start Chrome"]
+        },
+        "function": "open_application",
+        "arguments": [
+          {
+            "name": "action",
+            "types": ["VB"]
+          },
+          {
+            "name": "application",
+            "types": ["NN"]
+          }
+        ]
+      },
+      {
+        "tag": "change_brightness",
+        "patterns": {
+          "regex": "\\b(adjust|set|change|increase|decrease)\\s+brightness\\s*(to|by)?\\s*(\\d+)%?",
+          "NLPPattern": ["adjust brightness to 60", "increase brightness by 40%"]
+        },
+        "function": "change_brightness",
+        "arguments": [
+          {
+            "name": "action",
+            "types": ["VB"]
+          },
+          {
+            "name": "target",
+            "types": ["NN"]
+          },
+          {
+            "name": "value",
+            "types": ["CD"]
+          }
+        ]
+      },
+      {
+        "tag": "change_volume",
+        "patterns": {
+          "regex": "\\b(adjust|set|change|increase|decrease)\\s+volume\\s*(to|by)?\\s*(\\d+)%?",
+          "NLPPattern": ["adjust volume to 60", "increase volume by 40%"]
+        },
+        "function": "change_volume",
+        "arguments": [
+          {
+            "name": "action",
+            "types": ["VB"]
+          },
+          {
+            "name": "target",
+            "types": ["NN"]
+          },
+          {
+            "name": "value",
+            "types": ["CD"]
+          }
+        ]
+      },
+      {
+        "tag": "open_website",
+        "patterns": {
+          "regex": "\\b(open|launch|visit|go to)\\s+(https?://\\S+|\\w+\\.?\\w*)",
+          "NLPPattern": ["open google.com", "visit https://example.com"]
+        },
+        "function": "open_website",
+        "arguments": [
+          {
+            "name": "action",
+            "types": ["VB"]
+          },
+          {
+            "name": "url",
+            "types": ["NN", "URL"]
+          }
+        ]
+      },
+      {
+        "tag": "tell_joke",
+        "patterns": {
+          "regex": "\\b(tell me a|give me a|say a)\\s+(romantic\\s+)?joke",
+          "NLPPattern": ["tell me a joke", "tell me a romantic joke", "give me a joke", "say a romantic joke"]
+        },
+        "function": "tell_joke",
+        "arguments": [
+          {
+            "name": "type",
+            "types": ["NN"],
+            "default": "general"
+          }
+        ]
+      }
+    ]
+  }
+  
