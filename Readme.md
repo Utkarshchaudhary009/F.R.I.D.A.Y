@@ -11,27 +11,28 @@
 2. [Features and Capabilities](#features-and-capabilities)
     - [Key Features](#key-features)
     - [Unique Selling Points](#unique-selling-points)
-3. [Technical Architecture](#technical-architecture)
+3. [Setup](#setup)
+4. [Technical Architecture](#technical-architecture)
     - [Technologies and Frameworks](#technologies-and-frameworks)
     - [System Architecture](#system-architecture)
-4. [User Interaction](#user-interaction)
+5. [User Interaction](#user-interaction)
     - [Interaction Methods](#interaction-methods)
     - [Voice to Text Conversion](#voice-to-text-conversion)
     - [Intent Recognition and Argument Extraction](#intent-recognition-and-argument-extraction)
-5. [Design and Interface](#design-and-interface)
-6. [Deployment and Scalability](#deployment-and-scalability)
+6. [Design and Interface](#design-and-interface)
+7. [Deployment and Scalability](#deployment-and-scalability)
     - [Deployment Options](#deployment-options)
     - [Scalability and Reliability](#scalability-and-reliability)
-7. [Security and Privacy](#security-and-privacy)
+8. [Security and Privacy](#security-and-privacy)
     - [Current State](#current-state)
     - [Future Enhancements](#future-enhancements)
-8. [Integration of Indian Cultural Data](#integration-of-indian-cultural-data)
+9. [Integration of Indian Cultural Data](#integration-of-indian-cultural-data)
     - [Cultural and Ancient Books](#cultural-and-ancient-books)
     - [Utilization of RAG for Information Retrieval](#utilization-of-rag-for-information-retrieval)
-9. [Future Enhancements](#future-enhancements)
+10. [Future Enhancements](#future-enhancements)
     - [Advanced AI Integrations](#advanced-ai-integrations)
     - [Enhancing Functionality](#enhancing-functionality)
-10. [Conclusion](#conclusion)
+11. [Conclusion](#conclusion)
     - [Summary](#summary)
     - [Vision for the Future](#vision-for-the-future)
 
@@ -54,6 +55,10 @@ Friday draws inspiration from Jarvis, aiming to emulate its advanced capabilitie
 - 🎙️ **Voice Command Recognition**: Converts voice commands into actionable tasks.
 - 🧠 **Intent Recognition**: Uses Support Vector Machines (SVM) to identify user intent.
 - 🔍 **Argument Extraction**: Extracts necessary arguments from commands using NLP.
+
+### Setup
+
+[Click here to setup F.R.I.D.A.Y](https://github.com/Utkarshchaudhary009/friday/wiki/F.R.I.D.A.Y#introduction)
 
 ### Unique Selling Points
 - 🌐 **Extensive Functionality**: Capable of performing a broad range of tasks.
