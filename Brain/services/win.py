@@ -1,5 +1,11 @@
 import pygetwindow as gw
 import re
+import os
+import sys
+# Ensure the parent directory is in sys.path
+parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, os.pardir))
+if parent_dir not in sys.path:
+    sys.path.append(parent_dir)
 
 def perform_window_action(arguments):
     action = arguments.get("action")

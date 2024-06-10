@@ -1,20 +1,20 @@
-import os
+from instagrapi import Client
+def send_insta(recipient_username, message):
+    # Get username and password from user input
+    username = "utkarsh_chaudhary_009"
+    password ="utkarshchaudhary009"
+    
+    # Initialize the Instagram client
+    client = Client()
 
-# Define the folder and file structure
-structure = {
-    "Friday": [
-        "Brain/data/application_map.json",
-    ]
-}
+    # Login to Instagram
+    client.login(username, password)
 
-# Create directories and files based on the structure
-for root, files in structure.items():
-    for file_path in files:
-        # Create full file path
-        full_path = os.path.join(root, file_path)
-        # Create directory if it doesn't exist
-        os.makedirs(os.path.dirname(full_path), exist_ok=True)
-        # Create the file
-        open(full_path, 'a').close()
+    # Fetch recipient's user ID
+    recipient_id = client.user_id_from_username(recipient_username)
 
-print("Folder structure created successfully.")
+    # Send a direct message
+    client.direct_send(recipient_id, message)
+
+    # Logout after sending the message (optional)
+    client.logout()

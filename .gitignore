@@ -1,0 +1,38 @@
+
+# Ignore venv enviroment folder 
+venv 
+
+# Ignore Python byte code directories
+**/__pycache__/
+
+
+# Ignore venv.py files
+**/venv.py
+
+
+*.txt
+*.cpython-311.pyc
+*.wav
+*.pkl
+*.egg-info
+*.mp3
+*.crc
+/**/data/metadata.json
+/**/data/userconfig.json
+*.env
+
+.vscode
+todo.md
+strature.md
+pyvenv.cfg
+
+**/Downloads
+**/selenium
+**/cache
+**/logs
+**/.chromabd
+**/RAG
+**/.cache
+Brain/services/command_processor/classify_command.py
+Brain/services/command_processor/extract_arguments.py
+Brain/intents.json
