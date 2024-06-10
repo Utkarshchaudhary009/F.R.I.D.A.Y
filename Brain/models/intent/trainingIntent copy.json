@@ -1,0 +1,860 @@
+{
+  "intents": [
+    {
+      "tag": "news",
+      "patterns": {
+        "regex": "\\b(tell me|show me|what's|give me|latest|trending)\\s+(news|headlines|updates)",
+        "NLPPattern": [
+          "tell me the news",
+          "show me the latest news",
+          "what's the trending news",
+          "give me news updates",
+          "latest news headlines",
+          "trending news today",
+          "news for today",
+          "any news updates",
+          "recent news",
+          "news headlines",
+          "whats trending",
+          "tell me trending", "give me the latest news updates",
+          "any trending news today",
+          "what are the news headlines",
+          "current news updates",
+          "news today",
+          "today's news",
+          "news update",
+          "current headlines",
+          "news for today",
+          "trending news updates",
+          "latest news report",
+          "today's top news",
+          "latest headlines",
+          "news highlights",
+          "top news today",
+          "what's new in the news",
+          "current events",
+          "breaking news",
+          "news briefing"
+        ]
+      },
+      "function": "get_news",
+      "arguments": [
+        {
+          "name": "time",
+          "types": ["DATE"]
+        },
+        {
+          "name": "category",
+          "types": ["NNP", "NNS", "EVENT", "ORG"]
+        }
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": {
+        "regex": "\\b(what's|how's|tell me|give me|show me)\\s+(the|current|today's)\\s+(weather|forecast)",
+        "NLPPattern": [
+          "what's the weather",
+          "how's the weather today",
+          "tell me the current weather",
+          "give me today's weather forecast",
+          "show me the weather report",
+          "current weather update",
+          "today's weather forecast",
+          "weather update for today",
+          "current weather conditions",
+          "weather forecast",
+          "what's the weather forecast",
+          "today's weather report",
+          "current weather update",
+          "how's the weather",
+          "weather report for today",
+          "weather today",
+          "what is the weather today",
+          "current weather",
+          "today's weather conditions",
+          "how's the weather right now",
+          "weather update",
+          "current forecast",
+          "forecast for today",
+          "today's forecast",
+          "current weather forecast",
+          "weather conditions today",
+          "today's weather",
+          "what's the weather like today",
+          "current weather report",
+          "today's weather update"
+
+        ]
+      },
+      "function": "get_weather",
+      "arguments": [
+        {
+          "name": "time",
+          "types": ["DATE", "RB"]
+        },
+        {
+          "name": "location",
+          "types": ["GPE"]
+        }
+      ]
+    },
+    {
+      "tag": "memory",
+      "patterns": {
+        "regex": "\\b(remember|recall|remind me to)\\s+(.*)",
+        "NLPPattern": [
+          "remember my appointment",
+          "recall the task",
+          "remind me to buy groceries",
+          "remember this for later",
+          "recall my previous task",
+          "remind me about the meeting",
+          "remember to call John",
+          "recall the event",
+          "remind me of the deadline",
+          "remember to finish the report"
+        ]
+      },
+      "function": "handle_memory",
+      "arguments": [
+        {
+          "name": "task",
+          "types": ["NN", "NNS", "VB"]
+        }
+      ]
+    },
+    {
+      "tag": "response",
+      "patterns": {
+        "regex": "\\b(hello|hi|hey|how are you|jarvis|make me laugh)\\b",
+        "NLPPattern": [
+          "hello",
+          "hi",
+          "hey",
+          "how are you",
+          "tell me a joke",
+          "make me laugh",
+          "hello there",
+          "hi there",
+          "how's it going",
+          "how are you doing",
+          "what's up",
+          "hi there",
+          "hello there",
+          "how have you been",
+          "how's it going",
+          "hi",
+          "hey",
+          "hello",
+          "good morning",
+          "good evening",
+          "good afternoon",
+          "howdy",
+          "what's new",
+          "how do you do",
+          "hey there",
+          "hiya",
+          "how's everything",
+          "greetings",
+          "what's happening"
+        ]
+      },
+      "function": "get_response",
+      "arguments": [],
+      "responses": ["hi sir", "hi there", "good morning sir"]
+    },
+    {
+      "tag": "reminder",
+      "patterns": {
+        "regex": "\\b(remind me|set a reminder|create a reminder|schedule a reminder)\\s+(.*)",
+        "NLPPattern": [
+          "remind me to call mom",
+          "set a reminder for my meeting",
+          "create a reminder to pay bills",
+          "schedule a reminder for tomorrow",
+          "remind me to check emails",
+          "set a reminder for 3 PM",
+          "create a reminder for next week",
+          "schedule a reminder for my appointment",
+          "remind me about the project deadline",
+          "set a reminder to water the plants",
+          "remember this task",
+          "recall what I said",
+          "remind me later",
+          "remember to do this",
+          "recall this",
+          "remind me about this later",
+          "remember my task",
+          "recall my request",
+          "remind me to do this",
+          "remember what I said",
+          "recall the details",
+          "remind me to follow up",
+          "remember to check this",
+          "recall the reminder",
+          "remind me about my task",
+          "remember this for me",
+          "recall this information",
+          "remind me to look into this",
+          "remember to finish this",
+          "recall the reminder for me",
+          "remind me to do something",
+          "set a reminder for later",
+          "create a reminder for tomorrow",
+          "schedule a reminder for next week",
+          "remind me about an event",
+          "set a reminder for today",
+          "create a reminder for a task",
+          "schedule a reminder for a meeting",
+          "remind me about my appointment",
+          "set a reminder for the weekend",
+          "create a reminder to call someone",
+          "schedule a reminder for an event",
+          "remind me about a deadline",
+          "set a reminder to complete a task",
+          "create a reminder for a phone call",
+          "schedule a reminder for an appointment",
+          "remind me to send an email",
+          "set a reminder to finish a project",
+          "create a reminder to attend a meeting",
+          "schedule a reminder to buy something"
+        ]
+      },
+      "function": "set_reminder",
+      "arguments": [
+        {
+          "name": "time",
+          "types": ["DATE", "TIME"]
+        },
+        {
+          "name": "message",
+          "types": ["NN", "NNS", "VB"]
+        }
+      ]
+    },
+    {
+      "tag": "brightness",
+      "patterns": {
+        "regex": "\\b(adjust|set|change|increase|decrease)\\s+brightness\\s*(to|by)?\\s*(\\d+)%?",
+        "NLPPattern": [
+          "adjust brightness to 60",
+          "increase brightness by 40%",
+          "set brightness to 80%",
+          "decrease brightness to 20%",
+          "change brightness to 50",
+          "increase the brightness",
+          "decrease the brightness",
+          "set the brightness level",
+          "adjust screen brightness",
+          "brightness to 70%",
+          "increase brightness level",
+          "decrease brightness level",
+          "adjust screen brightness to 50%",
+          "set brightness to maximum",
+          "reduce brightness to minimum",
+          "change brightness to 75%",
+          "increase screen brightness to 100%",
+          "decrease screen brightness to 0%",
+          "adjust brightness by 20%",
+          "set screen brightness to 30%",
+          "adjust the brightness setting",
+          "increase the screen brightness",
+          "decrease the screen brightness",
+          "set the screen brightness level",
+          "change the brightness setting",
+          "adjust the screen brightness level",
+          "increase the brightness to 60%",
+          "decrease the brightness to 40%",
+          "set the brightness to 90%",
+          "change the brightness to 10%"
+        ]
+      },
+      "function": "change_brightness",
+      "arguments": [
+        {
+          "name": "action",
+          "types": ["VB"]
+        },
+        {
+          "name": "target",
+          "types": ["NN"]
+        },
+        {
+          "name": "value",
+          "types": ["CD"]
+        }
+      ],
+      "responses": [
+        "Sure, adjusting the brightness.",
+        "Okay, setting the brightness level.",
+        "Brightness adjusted."
+      ]
+    },
+    {
+      "tag": "window",
+      "patterns": {
+        "regex": "\\b(maximize|minimize|restore|close|open|resize)\\s+(window|application)\\b",
+        "NLPPattern": [
+          "maximize the window",
+          "minimize the window",
+          "restore the window",
+          "close the window",
+          "open the application",
+          "resize the window",
+          "maximize my application",
+          "minimize all windows",
+          "restore all windows",
+          "close all applications",
+          
+          "maximize window",
+          "minimize window",
+          "restore window",
+          "close window",
+          "open window",
+          "resize window",
+          "maximize application",
+          "minimize application",
+          "restore application",
+          "close application",
+          "open application",
+          "resize application",
+          "maximize all windows",
+          "minimize all windows",
+          "restore all windows",
+          "close all windows",
+          "open all windows",
+          "resize all windows",
+          "maximize all applications",
+          "minimize all applications"
+        ]
+      },
+      "function": "perform_window_action",
+      "arguments": [
+        {
+          "name": "action",
+          "types": ["VB"]
+        },
+        {
+          "name": "window",
+          "types": ["NN", "NNS"]
+        }
+      ],
+      "responses": [
+        "Okay, performing the window action.",
+        "Sure, I'll handle the window.",
+        "Window action completed."
+      ]
+    },
+    {
+      "tag": "open_application",
+      "patterns": {
+        "regex": "\\b(open|launch|start)\\s+(\\w+)",
+        "NLPPattern": [
+          "open PowerPoint",
+          "launch PowerPoint",
+          "start Chrome",
+          "open Word",
+          "launch Excel",
+          "start Firefox",
+          "open Notepad",
+          "launch Spotify",
+          "start Slack",
+          "open Zoom",
+          "open app",
+          "launch app",
+          "start app",
+          "open program",
+          "launch program",
+          "start program",
+          "open software",
+          "launch software",
+          "start software",
+          "open application",
+          "launch application",
+          "start application",
+          "open the app",
+          "launch the app",
+          "start the app",
+          "open the program",
+          "launch the program",
+          "start the program",
+          "open the software",
+          "launch the software",
+          "open Microsoft Word",
+          "launch Microsoft Word",
+          "start Microsoft Word",
+          "open MS Word",
+          "launch MS Word",
+          "start MS Word",
+          "open Google Chrome",
+          "launch Google Chrome",
+          "start Google Chrome",
+          "open Chrome",
+          "launch Chrome",
+          "start Chrome",
+          "open Excel",
+          "launch Excel",
+          "start Excel",
+          "open PowerPoint",
+          "launch PowerPoint",
+          "start PowerPoint",
+          "open Notepad",
+          "launch Notepad",
+          "start Notepad"
+        ]
+      },
+      "function": "open_application",
+      "arguments": [
+        {
+          "name": "action",
+          "types": ["VB"]
+        },
+        {
+          "name": "application",
+          "types": ["NN", "NPP", "PRODUCT"]
+        }
+      ],
+      "responses": [
+        "Sure, opening the application.",
+        "Okay, launching the application.",
+        "Application started."
+      ]
+    },
+    {
+      "tag": "change_volume",
+      "patterns": {
+        "regex": "\\b(adjust|set|change|increase|decrease)\\s+volume\\s*(to|by)?\\s*(\\d+)%?",
+        "NLPPattern": [
+          "adjust volume to 60",
+          "increase volume by 40%",
+          "set volume to 80%",
+          "decrease volume to 20%",
+          "change volume to 50",
+          "increase the volume",
+          "decrease the volume",
+          "set the volume level",
+          "adjust sound volume",
+          "volume to 70%",
+          "increase volume to 50%",
+          "decrease volume to 30%",
+          "set volume level to 80%",
+          "adjust the volume to 70%",
+          "change the volume to 60%",
+          "increase sound to 90%",
+          "decrease sound to 20%",
+          "set sound level to 40%",
+          "adjust sound to 50%",
+          "change sound to 70%",
+          "increase the volume to 40%",
+          "decrease the volume to 60%",
+          "set the volume to 20%",
+          "adjust the volume level to 80%",
+          "change the volume level to 30%",
+          "increase the sound to 100%",
+          "decrease the sound to 10%",
+          "set the sound to 90%",
+          "adjust the sound level to 60%",
+          "change the sound level to 50%"
+        ]
+      },
+      "function": "change_volume",
+      "arguments": [
+        {
+          "name": "action",
+          "types": ["VB"]
+        },
+        {
+          "name": "target",
+          "types": ["NN"]
+        },
+        {
+          "name": "value",
+          "types": ["CD"]
+        }
+      ],
+      "responses": [
+        "Sure, adjusting the volume.",
+        "Okay, setting the volume level.",
+        "Volume adjusted."
+      ]
+    },
+    {
+      "tag": "open_website",
+      "patterns": {
+        "regex": "\\b(open|launch|visit|go to)\\s+(https?://\\S+|\\w+\\.?\\w*)",
+        "NLPPattern": [
+          "open google.com",
+          "visit https://example.com",
+          "go to google.com",
+          "launch example.com",
+          "open my website",
+          "visit my homepage",
+          "go to my blog",
+          "launch the portal",
+          "open the intranet",
+          "visit the website",
+          "open w3schools.com",
+          "visit w3schools.com",
+          "go to w3schools.com",
+          "launch w3schools.com",
+          "open google.com",
+          "visit google.com",
+          "go to google.com",
+          "launch google.com",
+          "open youtube.com",
+          "visit youtube.com",
+          "go to youtube.com",
+          "launch youtube.com",
+          "open python.org",
+          "visit python.org",
+          "go to python.org",
+          "launch python.org",
+          "open wikipedia.org",
+          "visit wikipedia.org",
+          "go to wikipedia.org",
+          "launch wikipedia.org"
+        ]
+      },
+      "function": "open_website",
+      "arguments": [
+        {
+          "name": "action",
+          "types": ["VB"]
+        },
+        {
+          "name": "url",
+          "types": ["NN", "URL"]
+        }
+      ],
+      "responses": [
+        "Sure, opening the website.",
+        "Okay, launching the website.",
+        "Website opened."
+      ]
+    },
+    {
+      "tag": "tell_joke",
+      "patterns": {
+        "regex": "\\b(tell me a|give me a|say a)\\s+(romantic\\s+)?joke",
+        "NLPPattern": [
+          "tell me a joke",
+          "tell me a romantic joke",
+          "give me a joke",
+          "say a romantic joke",
+          "make me laugh",
+          "tell a funny joke",
+          "give me a funny joke",
+          "say a joke",
+          "tell me something funny",
+          "make me smile",
+          "tell me a funny joke",
+          "say a funny joke",
+          "make me laugh",
+          "give me something funny",
+          "say something funny",
+          "tell a joke",
+          "give me a joke",
+          "tell me a joke",
+          "make me smile",
+          "tell me something funny",
+          "say a joke",
+          "tell me another joke",
+          "give me another joke",
+          "say another joke",
+          "tell me a new joke",
+          "give me a new joke",
+          "say a new joke",
+          "tell me a different joke",
+          "give me a different joke"
+        ]
+      },
+      "function": "tell_joke",
+      "arguments": [
+        {
+          "name": "type",
+          "types": ["NN"],
+          "default": "general"
+        }
+      ],
+      "responses": [
+        "Sure, here's a joke for you.",
+        "Okay, let me tell you a joke.",
+        "Here's a funny joke."
+      ]
+    },
+    {
+      "tag": "coding",
+      "patterns": {
+        "regex": "\\b(write code to|generate script for|create a function to|how to code|coding example for)\\b",
+        "NLPPattern": [
+          "Write code to sort a list",
+          "Generate a script for automating tasks",
+          "Create a function to fetch data",
+          "How to code a login system",
+          "Give me a coding example for file handling in Python",
+          "How to write a loop in Python",
+          "Show me a code snippet for array sorting",
+          "Generate code for data scraping",
+          "Write a function to calculate factorial",
+          "Create a script to manage files",
+          "How to code a web scraper",
+          "Give me an example of error handling in Python",
+          "Generate a script for data visualization",
+          "Write code to connect to a database",
+          "Create a function to reverse a string",
+          "How to code a basic chatbot",
+          "Show me a code example for reading a file",
+          "Generate a script to send an email",
+          "Write a function to find prime numbers",
+          "Create a script for automating backups",
+          "write a script to do something",
+          "generate code for a task",
+          "create a program to do something",
+          "how to write a function",
+          "give me an example of coding",
+          "write code for a project",
+          "generate a script for a task",
+          "create a function to solve a problem",
+          "how to write code for a project",
+          "give me an example of a script",
+          "write a program to do something",
+          "generate code for a project",
+          "create a function to do something",
+          "how to write a script for a project",
+          "give me an example of a function",
+          "write a script for a task",
+          "generate a program for a task",
+          "create code to do something",
+          "how to write code for a task",
+          "give me an example of a program"
+        ]
+      },
+      "function": "phi_response",
+      "arguments": [
+        {
+          "name": "task",
+          "types": ["VB", "NN"]
+        }
+      ]
+    },
+    {
+      "tag": "general_knowledge",
+      "patterns": {
+        "regex": "\\b(what is|who is|where is|tell me about|information on|fact about)\\b",
+        "NLPPattern": [
+          "What is the capital of France",
+          "Who is Elon Musk",
+          "Where is the Eiffel Tower",
+          "Tell me about the Great Wall of China",
+          "Information on climate change",
+          "Fact about black holes",
+          "What is the tallest mountain",
+          "Who is the president of the United States",
+          "Where is the Amazon rainforest",
+          "Tell me about the Pacific Ocean",
+          "Information on renewable energy",
+          "Fact about the human brain",
+          "What is the largest desert",
+          "Who is the richest person in the world",
+          "Where is the Sahara Desert",
+          "Tell me about the pyramids of Egypt",
+          "Information on global warming",
+          "Fact about dinosaurs",
+          "What is the population of India",
+          "Who is the founder of Microsoft",
+          "what is the capital of a country",
+          "who is someone famous",
+          "where is a landmark",
+          "tell me about something",
+          "give me information on something",
+          "give me a fact about something",
+          "what is something"
+        ]
+      },
+      "function": "orca_response",
+      "arguments": [
+        {
+          "name": "query",
+          "types": ["NN"]
+        }
+      ]
+    },
+    {
+      "tag": "historical_info",
+      "patterns": {
+        "regex": "\\b(history of|who was|when did|historical background of|tell me the history of|historical facts about)\\b",
+        "NLPPattern": [
+          "History of Rome",
+          "Who was Julius Caesar",
+          "When did the Civil War start",
+          "Historical background of the Renaissance",
+          "Tell me the history of the Roman Empire",
+          "Historical facts about World War II",
+          "History of the Great Wall of China",
+          "Who was Cleopatra",
+          "When did the Industrial Revolution begin",
+          "Historical background of the American Revolution",
+          "Tell me the history of the French Revolution",
+          "Historical facts about the Middle Ages",
+          "History of ancient Egypt",
+          "Who was Napoleon Bonaparte",
+          "When did the Cold War end",
+          "Historical background of the Byzantine Empire",
+          "Tell me the history of the Ottoman Empire",
+          "Historical facts about the Crusades",
+          "History of the Silk Road",
+          "Who was Genghis Khan"
+        ]
+      },
+      "function": "orca_response",
+      "arguments": [
+        {
+          "name": "query",
+          "types": ["NN"]
+        }
+      ]
+    },
+    {
+      "tag": "detailed_article",
+      "patterns": {
+        "regex": "\\b(details on|explain|article about|information on|in-depth info on|tell me everything about)\\b",
+        "NLPPattern": [
+          "Details on the French Revolution",
+          "Explain quantum mechanics",
+          "Article about World War II",
+          "Information on the theory of relativity",
+          "In-depth info on blockchain technology",
+          "Tell me everything about the Industrial Revolution",
+          "Details on the solar system",
+          "Explain the theory of evolution",
+          "Article about the Great Depression",
+          "Information on artificial intelligence",
+          "In-depth info on climate change",
+          "Tell me everything about the Vietnam War",
+          "Details on the human digestive system",
+          "Explain the Big Bang theory",
+          "Article about the history of the internet",
+          "Information on genetic engineering",
+          "In-depth info on the Renaissance",
+          "Tell me everything about quantum computing",
+          "Details on the structure of DNA",
+          "Explain the causes of World War I"
+        ]
+      },
+      "function": "wikipedia_response",
+      "arguments": [
+        {
+          "name": "topic",
+          "types": ["NN"]
+        }
+      ]
+    },
+    {
+      "tag": "historical_biography",
+      "patterns": {
+        "regex": "\\b(biography of|life of|who was|tell me about the life of|historical figure|background of)\\b",
+        "NLPPattern": [
+          "Biography of Cleopatra",
+          "Life of Leonardo da Vinci",
+          "Who was Alexander the Great",
+          "Tell me about the life of Isaac Newton",
+          "Historical figure Julius Caesar",
+          "Background of Marie Curie",
+          "Biography of Abraham Lincoln",
+          "Life of Albert Einstein",
+          "Who was Winston Churchill",
+          "Tell me about the life of Mozart",
+          "Historical figure Mahatma Gandhi",
+          "Background of Nikola Tesla",
+          "Biography of Queen Elizabeth I",
+          "Life of Martin Luther King Jr.",
+          "Who was Joan of Arc",
+          "Tell me about the life of Vincent van Gogh",
+          "Historical figure Charles Darwin",
+          "Background of Florence Nightingale",
+          "Biography of George Washington",
+          "Life of Pablo Picasso"
+        ]
+      },
+      "function": "wikipedia_response",
+      "arguments": [
+        {
+          "name": "topic",
+          "types": ["NN"]
+        }
+      ]
+    },
+    {
+      "tag": "math_computation",
+      "patterns": {
+        "regex": "\\b(calculate|compute|what is the value of|solve|math problem|math calculation)\\b",
+        "NLPPattern": [
+          "Calculate the integral of x^2",
+          "Compute 5 factorial",
+          "What is the value of pi",
+          "Solve 3 + 4",
+          "Math problem: what is 15% of 200",
+          "Math calculation for 2^8",
+          "Calculate the area of a circle",
+          "Compute the derivative of x^3",
+          "What is the square root of 144",
+          "Solve the equation 2x + 3 = 7",
+          "Math problem: simplify the expression",
+          "Math calculation for compound interest",
+          "Calculate the volume of a sphere",
+          "Compute the sum of the first 100 numbers",
+          "What is the Pythagorean theorem",
+          "Solve for x in the equation",
+          "Math problem: find the mean of a set of numbers",
+          "Math calculation for probability",
+          "Calculate the distance between two points",
+          "Compute the logarithm of 100"
+        ]
+      },
+      "function": "wolframalpha_response",
+      "arguments": [
+        {
+          "name": "query",
+          "types": ["NN"]
+        }
+      ]
+    },
+    {
+      "tag": "scientific_data",
+      "tag": "scientific_data",
+      "patterns": {
+        "regex": "\\b(scientific data on|statistics for|data on|scientific information about|scientific facts|science info on|tell me about|explain the model|what is the chemical equation for)\\b",
+        "NLPPattern": [
+          "Scientific data on global warming",
+          "Statistics for COVID-19 cases",
+          "Data on planetary motion",
+          "Scientific information about photosynthesis",
+          "Scientific facts about black holes",
+          "Science info on evolution",
+          "Tell me about Bohr's model",
+          "Explain the model of the atom",
+          "What is the chemical equation for water",
+          "Scientific data on climate change",
+          "Statistics for world population",
+          "Data on greenhouse gases",
+          "Scientific information about the solar system",
+          "Scientific facts about gravity",
+          "Science info on the periodic table",
+          "Tell me about Newton's laws of motion",
+          "Explain the theory of relativity",
+          "What is the chemical equation for carbon dioxide",
+          "Scientific data on biodiversity",
+          "Statistics for ocean temperatures"
+        ]
+      },
+      "function": "wolframalpha_response",
+      "arguments": [
+        {
+          "name": "query",
+          "types": ["NN"]
+        }
+      ]
+    }
+  ]
+}
