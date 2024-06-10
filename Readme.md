@@ -1,4 +1,4 @@
-# Overview of Friday
+# Overview of F.R.I.D.A.Y
 <div align="center">
     <img src="https://upload.wikimedia.org/wikipedia/en/4/40/F.R.I.D.A.Y._%28Marvel_Comics%29.jpg" alt="Friday">
 </div>
@@ -156,10 +156,8 @@ Friday is an advanced, multifunctional voice assistant designed to automate task
 The vision for Friday includes integrating advanced AI models, enhancing functionality, and ensuring robust security and privacy measures, making it a cutting-edge voice assistant for the future.
 
 ---
-<a href="./License. md">
+<a href="https://github.com/Utkarshchaudhary009/friday/blob/main/Licence.md">
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg" Alt="MIT License">
 </a>
 
-[Licence](./Licence.md)
 
-![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
