@@ -32,6 +32,7 @@ pyvenv.cfg
 **/logs
 **/.chromabd
 **/RAG
+/wiki.md
 **/.cache
 Brain/services/command_processor/classify_command.py
 Brain/services/command_processor/extract_arguments.py
