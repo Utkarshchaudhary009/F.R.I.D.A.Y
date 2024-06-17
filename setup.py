@@ -10,7 +10,7 @@ import os
 # subprocess.run(["pip", "install", "-e", "./Brain/services"])
 print("\n\n done \n\n")
 if __name__ == "__main__":
-    install_packages_from_requirements()
+    #install_packages_from_requirements()
     user_setup()
     print("Setup complete.")
 

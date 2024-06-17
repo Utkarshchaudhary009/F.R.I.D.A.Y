@@ -39,6 +39,8 @@ def check_internet():
         requests.get('https://www.google.com/', timeout=5)
     except requests.ConnectionError:
         speak("You are not connected to the internet. Please check your connection.")
+    except:
+        pass
 
 # Check weather
 def check_weather():

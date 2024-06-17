@@ -54,46 +54,64 @@
 #         convert_to_segments(input_file, output_directory)
         
 # print("Conversion complete!")
-import pyaudio
-import wave
+# import pyaudio
+# import wave
 
-def record_audio(filename, duration, sample_rate=44100, chunk_size=1024):
-    # Initialize PyAudio
-    p = pyaudio.PyAudio()
+# def record_audio(filename, duration, sample_rate=44100, chunk_size=1024):
+#     # Initialize PyAudio
+#     p = pyaudio.PyAudio()
 
-    # Open a new stream for recording
-    stream = p.open(format=pyaudio.paInt16,  # 16-bit resolution
-                    channels=1,              # mono channel
-                    rate=sample_rate,        # sample rate
-                    input=True,              # input stream
-                    frames_per_buffer=chunk_size)  # chunk size
+#     # Open a new stream for recording
+#     stream = p.open(format=pyaudio.paInt16,  # 16-bit resolution
+#                     channels=1,              # mono channel
+#                     rate=sample_rate,        # sample rate
+#                     input=True,              # input stream
+#                     frames_per_buffer=chunk_size)  # chunk size
 
-    print("Recording...")
+#     print("Recording...")
 
-    # Initialize an empty list to store the frames
-    frames = []
+#     # Initialize an empty list to store the frames
+#     frames = []
 
-    # Loop to read audio data from the stream
-    for _ in range(0, int(sample_rate / chunk_size * duration)):
-        data = stream.read(chunk_size)
-        frames.append(data)
+#     # Loop to read audio data from the stream
+#     for _ in range(0, int(sample_rate / chunk_size * duration)):
+#         data = stream.read(chunk_size)
+#         frames.append(data)
 
-    print("Recording finished.")
+#     print("Recording finished.")
 
-    # Stop and close the stream
-    stream.stop_stream()
-    stream.close()
-    p.terminate()
+#     # Stop and close the stream
+#     stream.stop_stream()
+#     stream.close()
+#     p.terminate()
 
-    # Save the recorded frames as a .wav file
-    wf = wave.open(filename, 'wb')
-    wf.setnchannels(1)                     # mono channel
-    wf.setsampwidth(p.get_sample_size(pyaudio.paInt16))  # 16-bit resolution
-    wf.setframerate(sample_rate)           # sample rate
-    wf.writeframes(b''.join(frames))       # write frames to file
-    wf.close()
+#     # Save the recorded frames as a .wav file
+#     wf = wave.open(filename, 'wb')
+#     wf.setnchannels(1)                     # mono channel
+#     wf.setsampwidth(p.get_sample_size(pyaudio.paInt16))  # 16-bit resolution
+#     wf.setframerate(sample_rate)           # sample rate
+#     wf.writeframes(b''.join(frames))       # write frames to file
+#     wf.close()
 
-if __name__ == "__main__":
-    filename = "output.wav"
-    duration = 10  # duration of the recording in seconds
-    record_audio(filename, duration)
+# if __name__ == "__main__":
+#     filename = "output.wav"
+#     duration = 10  # duration of the recording in seconds
+#     record_audio(filename, duration)
+import os
+from pydub import AudioSegment
+
+# Load the audio file
+audio = AudioSegment.from_file("../../data/startup.mp3")
+
+# Get the duration of the audio in milliseconds
+audio_length = len(audio)
+segment_length_ms=12000
+# Calculate the number of segments
+num_segments = audio_length // segment_length_ms
+
+# Extract and save each segment
+for i in range(num_segments):
+    start_time = i * segment_length_ms
+    end_time = (i + 1) * segment_length_ms
+    segment = audio[start_time:end_time]
+    segment.export(os.path.join("../../data", f"startup{i}.mp3"), format="mp3")
