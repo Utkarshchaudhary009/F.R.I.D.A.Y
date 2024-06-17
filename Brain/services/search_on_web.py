@@ -57,7 +57,7 @@ web_map = {
     "bloomberg": "https://www.bloomberg.com/search?query=",
     "weather": "https://weather.com/weather/today/l/"
 }
-from web import website
+from website import website
 def search_web(command):
     response_dict = extract_platform_and_search(command)
     platform, query = response_dict.get("platform", ""), response_dict.get("search_term", "")

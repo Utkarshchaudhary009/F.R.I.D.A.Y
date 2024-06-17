@@ -24,88 +24,88 @@ def scroll_down():
 
 def open_new_tab():
     keyboard.press_and_release('ctrl+t')
-    print("Opened a new tab")
+    return("Opened a new tab")
 
 def close_tab():
     keyboard.press_and_release('ctrl+w')
-    print("Closed the tab")
+    return("Closed the tab")
 
 def navigate_to_url(url):
     keyboard.press_and_release('ctrl+l')
     keyboard.write(url)
     keyboard.press_and_release('enter')
-    print(f"Navigated to {url}")
+    return(f"Navigated to {url}")
 
 def refresh_page():
     keyboard.press_and_release('ctrl+r')
-    print("Refreshed the page")
+    return("Refreshed the page")
 
 def open_extension():
     keyboard.press_and_release('ctrl+shift+X')
 
 def open_new_file():
     keyboard.press_and_release('ctrl+n')
-    print("Opened a new file")
+    return("Opened a new file")
 
 def save_file():
     keyboard.press_and_release('ctrl+s')
-    print("Saved the file")
+    return("Saved the file")
 
 def close_file():
     keyboard.press_and_release('ctrl+w')
-    print("Closed the file")
+    return("Closed the file")
 
 def comment_code():
     keyboard.press_and_release('ctrl+/')
-    print("Commented the code")
+    return("Commented the code")
 
 def uncomment_code():
     keyboard.press_and_release('ctrl+k, ctrl+u')
-    print("Uncommented the code")
+    return("Uncommented the code")
 
 def open_terminal():
     keyboard.press_and_release('ctrl+`')
-    print("Opened the terminal")
+    return("Opened the terminal")
 
 def open_settings():
     keyboard.press_and_release('ctrl+,')
-    print("Opened settings")
+    return("Opened settings")
 
 def undo_action():
     keyboard.press_and_release('ctrl+z')
-    print("Undid the action")
+    return("Undid the action")
 
 def redo_action():
     keyboard.press_and_release('ctrl+y')
-    print("Redid the action")
+    return("Redid the action")
 
 def find_text():
     keyboard.press_and_release('ctrl+f')
-    print("Opened find text")
+    return("Opened find text")
 
 def replace_text():
     keyboard.press_and_release('ctrl+h')
-    print("Opened replace text")
+    return("Opened replace text")
 
 def open_dev_tools():
     keyboard.press_and_release('ctrl+shift+i')
-    print("Opened Developer Tools")
+    return("Opened Developer Tools")
 
 def close_dev_tools():
     keyboard.press_and_release('ctrl+shift+c')
-    print("Closed Developer Tools")
+    return("Closed Developer Tools")
 
 def zoom_in():
     keyboard.press_and_release('ctrl+=')
-    print("Zoomed in")
+    return("Zoomed in")
 
 def zoom_out():
     keyboard.press_and_release('ctrl+-')
-    print("Zoomed out")
+    return("Zoomed out")
 
 def toggle_full_screen():
     keyboard.press_and_release('F11')
-    print("Toggled full screen mode")
+    return("Toggled full screen mode")
 
 # Map commands to functions
 command_map = {
@@ -125,8 +125,8 @@ command_map = {
     'close tab': close_tab,
     'navigate to': navigate_to_url,
     'refresh page': refresh_page,
-    'open extension': open_extension,
-    'open settings': open_settings,
+    'extension': open_extension,
+    'setting': open_settings,
     'undo': undo_action,
     'redo': redo_action,
     'find text': find_text,
@@ -136,9 +136,11 @@ command_map = {
     'zoom in': zoom_in,
     'zoom out': zoom_out,
     'full screen': toggle_full_screen,
+    'decrease zoom':zoom_out,
+    'increase zoom':zoom_in,
 }
 
-def execute_command(command):
+def key(command):
     # Find the corresponding function for the command and execute it
     for key in command_map:
         if key in command:
@@ -148,29 +150,29 @@ def execute_command(command):
                     command_map[key](url)
                 elif 'search' in command:
                     cmd = command.split('search ')[1]
-                    command_map[key](cmd)
+                    return {"response":command_map[key](cmd)}
                 else:
                     command_map[key]()
                 return
             except Exception as e:
-                print(f"Error executing command '{command}': {e}")
+                return({"response":f"Error executing command '{command}': {e}"})
                 return
-    print(f"No matching command found for '{command}'")
+    return({"response":f"No matching command found for '{command}'"})
 
 # Example usage
-# execute_command("open new file")
+# key("open new file")
 # time.sleep(5)  # Delay to visually confirm each action
-# execute_command("save file")
+# key("save file")
 # time.sleep(2)
 if __name__=="__main__": 
-    execute_command("open settings")
-    execute_command("comment code")
-    execute_command("undo action")
-    execute_command("redo action")
-    execute_command("find text")
-    execute_command("replace text")
-    execute_command("open dev tools")
-    execute_command("close dev tools")
-    execute_command("zoom in")
-    execute_command("zoom out")
-    execute_command("toggle full screen")
+    key("open settings")
+    key("comment code")
+    key("undo action")
+    key("redo action")
+    key("find text")
+    key("replace text")
+    key("open dev tools")
+    key("close dev tools")
+    key("zoom in")
+    key("zoom out")
+    key("toggle full screen")

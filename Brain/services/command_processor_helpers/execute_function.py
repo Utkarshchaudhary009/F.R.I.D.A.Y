@@ -7,17 +7,21 @@ from bright import change_brightness
 from volume import change_volume
 from win import perform_window_action
 from application import open_application
-from web import open_website
+from website import open_website
 from jokes import tell_joke
 from onoff import onoff
 from movieDetail import moviedetails
 from spotify import get_music_details
 from song import play_song
-from wiki import get_google_knowledge_graph
+from cricket import cricket
+from wiki import wiki
 from wolframalpha_response import wolframalpha_response  # Ensure this import is correct and the function exists
 import os
 import sys
 from book import book
+from Brain.services.Translator import translator
+from Brain.services.keyboardmagic import key
+from Brain.services.search_on_web import search_web
 
 # Ensure the parent directory is in sys.path
 parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, os.pardir))
@@ -42,6 +46,14 @@ def execute_function(function_name, arguments):
         return change_brightness(arguments)
     elif function_name == "change_volume":
         return change_volume(arguments)
+    elif function_name == "translator":
+        return translator(arguments)
+    elif function_name == "search_on_web":
+        return search_web(arguments)
+    elif function_name == "key":
+        return key(arguments)
+    elif function_name == "get_cricket_updates":
+        return cricket(arguments)
     elif function_name == "perform_window_action":
         return perform_window_action(arguments)
     elif function_name == "open_application":
@@ -61,7 +73,7 @@ def execute_function(function_name, arguments):
     elif function_name == "book_detail":
         return book(arguments)
     elif function_name == "search_wikipedia":
-        return get_google_knowledge_graph(arguments)
+        return wiki(arguments)
     elif function_name == "search_wolframalpha":
         return wolframalpha_response(arguments)
     else:

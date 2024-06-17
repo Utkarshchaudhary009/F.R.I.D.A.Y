@@ -20,7 +20,7 @@ venv
 /**/data/metadata.json
 /**/data/userconfig.json
 *.env
-
+*.joblib
 .vscode
 todo.md
 strature.md
@@ -37,6 +37,12 @@ pyvenv.cfg
 Brain/services/command_processor/classify_command.py
 Brain/services/command_processor/extract_arguments.py
 Brain/intents.json
+desktop.ini
+sidebar.cc1d36ec.js
+page_source.html
+.google-cookies
+/emotion/data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -197,3 +203,13 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+Brain/models/emotion/data/data.csv
+Brain/models/emotion/data/emo (1).zip
+Brain/models/emotion/data/Emo.zip
+Brain/models/emotion/data/Emo3.zip
+Brain/models/emotion/data/test.csv
+Brain/models/emotion/data/Text_Emotion.csv
+Brain/models/emotion/data/train.csv
+Brain/models/emotion/data/tweet_emotions.csv
+Brain/models/emotion/data/validation.csv
+Brain/services/cricket-api

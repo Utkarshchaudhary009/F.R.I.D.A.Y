@@ -54,7 +54,7 @@ def translate_text(text, target_code='en', cache=None):
     
     except Exception as e:
         print("Error during translation:", e)
-        return {"response":"some error occur. try to transkate after sometime","data":translated_text}
+        return {"response":"some error occur. try to transkate after sometime","data":None}
 
 def extract_translation_input(user_input, cache):
     pattern = r'^translate\s+(.+?)\s+(?:into|to)\s+(.+)$'
@@ -65,6 +65,7 @@ def extract_translation_input(user_input, cache):
         if target_code:
             data= translate_text(text_to_translate, target_code, cache)
             googlespeak(data["data"]["text"],data["data"]["code"])
+            return {"response":None}
         else:
             print(f"Unsupported language: {target_language}")
     else:
@@ -73,7 +74,7 @@ def extract_translation_input(user_input, cache):
 
 def translator(user_input):
     cache = load_cache()
-    extract_translation_input(user_input, cache)
+    return extract_translation_input(user_input, cache)
 
 if __name__ == "__main__":
     while True:

@@ -11,7 +11,9 @@ if parent_dir not in sys.path:
 
 from Brain.utilities.readEnv import readEnv  # Absolute import
 
-def get_weather(location=None, time=None):
+def get_weather(args):
+    location=args.get("location",None)
+    time=args.get("time",None)
     # OpenWeatherMap API key
     api_key = readEnv("WEATHER")
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
@@ -72,8 +74,8 @@ def get_weather(location=None, time=None):
         
         weather_report = (
             f"The weather in {location} is {weather_desc}. The temperature is {temperature}°C, "
-            f"feels like {feels_like}°C, wind speed is {wind_speed} m/s from the {wind_direction}, "
-            f"humidity is {humidity}%,"
+            f"feels like {feels_like}°C, wind speed is {wind_speed} meters per second from the {wind_direction}, "
+            f"humidity is {humidity} percent,"
             f"and visibility is {visibility / 1000} Kilometer."
         )
 

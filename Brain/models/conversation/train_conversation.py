@@ -5,7 +5,8 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
 import pickle
 import json
-
+import os
+os.remove("./query_type_model.pkl")
 # Load the responses from the JSON file
 with open('./conversation.json', 'r') as f:
     data = json.load(f)

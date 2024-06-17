@@ -3,7 +3,7 @@ from datetime import datetime
 import os
 import sys
 import random
-
+from DLG import *
 # Get the parent directory of the current file
 parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 # Add the parent directory to the Python path
@@ -127,23 +127,26 @@ def advanced_greeting(user_name, mood=None):
 
 # Check weather
 def check_weather():
-    weather_data = get_weather()  # Assuming get_weather() returns a dictionary
-    if weather_data:
-        data = weather_data.get('data')
-        location = weather_data.get('location')
-        if data:
-            weather_description = data.get('weather')
-            if weather_description:
-                description = weather_description[0].get('description')
-                return {"location": location, "weather": description}
-            else:
-                print("Failed to retrieve weather description.")
-        else:
-            print("Failed to retrieve weather data.")
-    else:
-        print("Failed to retrieve weather information.")
-    return None
-
+    try:
+         weather_data = get_weather()  # Assuming get_weather() returns a dictionary
+         if weather_data:
+             data = weather_data.get('data')
+             location = weather_data.get('location')
+             if data:
+                 weather_description = data.get('weather')
+                 if weather_description:
+                     description = weather_description[0].get('description')
+                     return {"location": location, "weather": description}
+                 else:
+                     print("Failed to retrieve weather description.")
+             else:
+                 print("Failed to retrieve weather data.")
+         else:
+             print("Failed to retrieve weather information.")
+         return None
+    except:
+        None
+        
 # Example usage
 if __name__ == "__main__":
     print(advanced_greeting("Utkarsh"))

@@ -1,0 +1,3766 @@
+[
+  {
+    "querysite": "Indian soldiers in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Battles involving Indian soldiers in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian Army in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Role of Indian regiments in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Contribution of Indian troops in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian casualties in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian recruitment in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian military leaders in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian medical personnel in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian nurses in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian prisoners of war in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian awards and decorations in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian pilots in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian contributions to the Western Front in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian soldiers in the Mesopotamian campaign in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian soldiers in the Gallipoli campaign in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian soldiers in the Sinai and Palestine campaign in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian soldiers in the East African campaign in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What caused World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the major events of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "Who were the Axis Powers in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "Who were the Allied Powers in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Treaty of Versailles and its role in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Munich Agreement and its significance in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the invasion of Poland?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of France?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Blitzkrieg strategy in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Britain?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Atlantic Charter?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Lend-Lease Act?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Attack on Pearl Harbor?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the Japanese Internment Camps?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Doolittle Raid?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Midway?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Stalingrad?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Siege of Leningrad?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the North African Campaign?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of El Alamein?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Italian Campaign?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the D-Day Invasion?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Normandy?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of the Bulge?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Eastern Front in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Okinawa?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Iwo Jima?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Manhattan Project?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Holocaust?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Nuremberg Trials?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Yalta Conference?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Potsdam Conference?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Hiroshima Bombing?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Nagasaki Bombing?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the United Nations and its role in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the consequences of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the economic effects of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the social impacts of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the technological advancements of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the military innovations of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the political changes after World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Cold War and its connection to World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the post-war occupation of Germany?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the Nuremberg Principles?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the war crimes of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the role of women in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the contributions of African Americans in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Code Talkers and its role in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the impact of World War II on Native Americans?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the role of propaganda in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What is the history of India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who were the leaders of India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the impact of partition on India's economy?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "How did India handle the refugee crisis after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What were the challenges faced by India after partition?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the role of Mahatma Gandhi after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "How did India rebuild after partition?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What was the political situation in India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the impact of partition on India's society?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "How did India establish diplomatic relations after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of Jawaharlal Nehru after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the status of minorities in India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the relationship between India and Pakistan after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the impact of partition on India's culture?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "How did India deal with the issue of Kashmir after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of Sardar Patel after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of Maulana Azad after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of B.R. Ambedkar after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the economic policy of India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What were the major events in India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "How did India address the issue of language after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of Indian National Congress after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of Muslim League in India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the impact of partition on India's foreign policy?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What caused World War 1?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the main alliances in World War 1?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What caused World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the major events of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "Who were the Axis Powers in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "Who were the Allied Powers in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Treaty of Versailles and its role in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Munich Agreement and its significance in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the invasion of Poland?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of France?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Blitzkrieg strategy in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Britain?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Atlantic Charter?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Lend-Lease Act?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Attack on Pearl Harbor?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the Japanese Internment Camps?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Doolittle Raid?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Midway?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Stalingrad?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Siege of Leningrad?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the North African Campaign?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of El Alamein?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Italian Campaign?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the D-Day Invasion?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Normandy?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of the Bulge?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Eastern Front in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Okinawa?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Iwo Jima?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Manhattan Project?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Holocaust?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Nuremberg Trials?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Yalta Conference?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Potsdam Conference?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Hiroshima Bombing?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Nagasaki Bombing?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the United Nations and its role in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the consequences of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the economic effects of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the social impacts of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the technological advancements of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the military innovations of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the political changes after World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Cold War and its connection to World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the post-war occupation of Germany?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the Nuremberg Principles?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the war crimes of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the role of women in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the contributions of African Americans in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Code Talkers and its role in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the impact of World War II on Native Americans?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the role of propaganda in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What is the history of India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who were the leaders of India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the impact of partition on India's economy?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "How did India handle the refugee crisis after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What were the challenges faced by India after partition?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the role of Mahatma Gandhi after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "How did India rebuild after partition?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What was the political situation in India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the impact of partition on India's society?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "How did India establish diplomatic relations after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of Jawaharlal Nehru after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the status of minorities in India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the relationship between India and Pakistan after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the impact of partition on India's culture?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "How did India deal with the issue of Kashmir after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of Sardar Patel after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of Maulana Azad after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of B.R. Ambedkar after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the economic policy of India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What were the major events in India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "How did India address the issue of language after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of Indian National Congress after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of Muslim League in India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the impact of partition on India's foreign policy?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who were the leaders of the major powers in World War 1?",
+    "label": "site:https://www.bbc.co.uk"
+  },
+  {
+    "querysite": "What was trench warfare?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What were the causes of the Battle of the Somme?",
+    "label": "site:https://www.iwm.org.uk"
+  },
+  {
+    "querysite": "What was the Treaty of Versailles?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What role did women play in World War 1?",
+    "label": "site:https://www.iwm.org.uk"
+  },
+  {
+    "querysite": "What was the Zimmerman Telegram?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the significance of the Lusitania sinking?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What were the consequences of World War 1?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the impact of World War 1 on Europe?",
+    "label": "site:https://www.bbc.co.uk"
+  },
+  {
+    "querysite": "What was the role of propaganda in World War 1?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What were the effects of the Russian Revolution on World War 1?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the weapons used in World War 1?",
+    "label": "site:https://www.iwm.org.uk"
+  },
+  {
+    "querysite": "What was life like in the trenches during World War 1?",
+    "label": "site:https://www.iwm.org.uk"
+  },
+  {
+    "querysite": "What was the Christmas Truce of 1914?",
+    "label": "site:https://www.iwm.org.uk"
+  },
+  {
+    "querysite": "What were the political consequences of World War 1?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the economic effects of World War 1?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the social changes caused by World War 1?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the technological advancements during World War 1?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the role of the Ottoman Empire in World War 1?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What were the consequences of the Gallipoli Campaign?",
+    "label": "site:https://www.awm.gov.au"
+  },
+  {
+    "querysite": "What caused World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the major events of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "Who were the Axis Powers in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "Who were the Allied Powers in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Treaty of Versailles and its role in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Munich Agreement and its significance in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the invasion of Poland?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of France?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Blitzkrieg strategy in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Britain?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Atlantic Charter?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Lend-Lease Act?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Attack on Pearl Harbor?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the Japanese Internment Camps?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Doolittle Raid?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Midway?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Stalingrad?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Siege of Leningrad?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the North African Campaign?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of El Alamein?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Italian Campaign?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the D-Day Invasion?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Normandy?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of the Bulge?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Eastern Front in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Okinawa?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Battle of Iwo Jima?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Manhattan Project?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Holocaust?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Nuremberg Trials?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Yalta Conference?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Potsdam Conference?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Hiroshima Bombing?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Nagasaki Bombing?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the United Nations and its role in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the consequences of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the economic effects of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the social impacts of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the technological advancements of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the military innovations of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the political changes after World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Cold War and its connection to World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the post-war occupation of Germany?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the Nuremberg Principles?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the war crimes of World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the role of women in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What were the contributions of African Americans in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Code Talkers and its role in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the impact of World War II on Native Americans?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the role of propaganda in World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What is the history of India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who were the leaders of India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the impact of partition on India's economy?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "How did India handle the refugee crisis after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What were the challenges faced by India after partition?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the role of Mahatma Gandhi after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "How did India rebuild after partition?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What was the political situation in India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the impact of partition on India's society?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "How did India establish diplomatic relations after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of Jawaharlal Nehru after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the status of minorities in India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the relationship between India and Pakistan after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the impact of partition on India's culture?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "How did India deal with the issue of Kashmir after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of Sardar Patel after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of Maulana Azad after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of B.R. Ambedkar after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the economic policy of India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What were the major events in India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "How did India address the issue of language after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of Indian National Congress after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of Muslim League in India after partition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the impact of partition on India's foreign policy?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What is cricket?",
+    "label": "site:https://www.icc-cricket.com"
+  },
+  {
+    "querysite": "Who is the captain of the Indian cricket team?",
+    "label": "site:https://www.bcci.tv"
+  },
+  {
+    "querysite": "What is the history of cricket?",
+    "label": "site:https://en.wikipedia.org/wiki/Cricket"
+  },
+  {
+    "querysite": "What are the rules of cricket?",
+    "label": "site:https://www.icc-cricket.com"
+  },
+  {
+    "querysite": "Who is the best batsman in cricket history?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who is the best bowler in cricket history?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What are the types of cricket matches?",
+    "label": "site:https://www.icc-cricket.com"
+  },
+  {
+    "querysite": "What is Test cricket?",
+    "label": "site:https://www.icc-cricket.com"
+  },
+  {
+    "querysite": "What is One Day International (ODI) cricket?",
+    "label": "site:https://www.icc-cricket.com"
+  },
+  {
+    "querysite": "What is Twenty20 (T20) cricket?",
+    "label": "site:https://www.icc-cricket.com"
+  },
+  {
+    "querysite": "Who won the Cricket World Cup in 2019?",
+    "label": "site:https://www.icc-cricket.com"
+  },
+  {
+    "querysite": "What is the Indian Premier League (IPL)?",
+    "label": "site:https://www.iplt20.com"
+  },
+  {
+    "querysite": "Who are the current top-ranked teams in cricket?",
+    "label": "site:https://www.icc-cricket.com"
+  },
+  {
+    "querysite": "What is the role of the International Cricket Council (ICC)?",
+    "label": "site:https://www.icc-cricket.com"
+  },
+  {
+    "querysite": "What are the major cricket tournaments?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who are the legendary cricketers of all time?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the Duckworth-Lewis method in cricket?",
+    "label": "site:https://www.icc-cricket.com"
+  },
+  {
+    "querysite": "What is the Indian cricket team's current ranking?",
+    "label": "site:https://www.bcci.tv"
+  },
+  {
+    "querysite": "What is the history of Ashes cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who is Sachin Tendulkar and what are his records?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who is Virat Kohli and what are his records?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the difference between a Test match and a T20 match?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of the third umpire in cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the history of the Melbourne Cricket Ground (MCG)?",
+    "label": "site:https://www.mcg.org.au"
+  },
+  {
+    "querysite": "What are the different cricket shots?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is a hat-trick in cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who is the highest run-scorer in Test cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who is the highest wicket-taker in Test cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of a cricket coach?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of the cricket captain?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of a cricket commentator?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of a cricket analyst?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What are the different cricket formats played internationally?",
+    "label": "site:https://www.icc-cricket.com"
+  },
+  {
+    "querysite": "What is the role of the match referee in cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What are the common fielding positions in cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the importance of fitness in cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of technology in modern cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of the groundsman in cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of the cricket ball manufacturer?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of the cricket bat manufacturer?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What are the common injuries in cricket and how to prevent them?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What are the basic skills required to play cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of a cricket statistician?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of a cricket selector?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What was the significance of the Battle of Jutland?",
+    "label": "site:https://www.iwm.org.uk"
+  },
+  {
+    "querysite": "What was the role of submarines in World War 1?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What was the role of the United States in World War 1?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "importance of mental toughness in cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of a cricket physiotherapist?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the importance of team bonding in cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What are the common fielding techniques in cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of a cricket video analyst?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of the cricket coach during a match?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of a cricket psychologist?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the importance of strategy in cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of a cricket journalist?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of a cricket photographer?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of a cricket broadcaster?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of a cricket umpire?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What are the duties of a cricket team manager?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of a cricket groundsman?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of a cricket analyst?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of a cricket sponsor?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the highest individual score in Test cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who holds the record for the most Test centuries?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the fastest century in One Day International (ODI) cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who holds the record for the most sixes in international cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the highest team total in Test cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who is the leading wicket-taker in Test cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the highest partnership in Test cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who holds the record for the fastest delivery in cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the highest individual score in One Day International (ODI) cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who holds the record for the most ODI centuries?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the highest team total in One Day International (ODI) cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who is the leading wicket-taker in One Day International (ODI) cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the highest individual score in Twenty20 (T20) cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who holds the record for the most T20 centuries?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+
+  {
+    "querysite": "What is the highest team total in Twenty20 (T20) cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who is the leading wicket-taker in Twenty20 (T20) cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the fastest fifty in international cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the highest individual score in Women's cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who holds the record for the most centuries in Women's cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the highest team total in Women's cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who is the leading wicket-taker in Women's cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the highest individual score in Test cricket by a captain?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who holds the record for the most Test centuries as a captain?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the highest individual score in One Day International (ODI) cricket by a captain?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who holds the record for the most ODI centuries as a captain?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the highest individual score in Twenty20 (T20) cricket by a captain?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Who holds the record for the most T20 centuries as a captain?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What are the major cricketing events in a year?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of a cricket fan?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What are the different formats of domestic cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What are the key responsibilities of a cricket team captain?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of a cricket scorer?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What are the common cricket terms and their meanings?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the importance of leadership in cricket?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of the cricket ball manufacturer?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "What is the role of the cricket bat manufacturer?",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Indian soldiers in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Battles involving Indian soldiers in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian Army in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Role of Indian regiments in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Contribution of Indian troops in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian casualties in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian recruitment in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian military leaders in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian medical personnel in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian nurses in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian prisoners of war in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian awards and decorations in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian pilots in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian contributions to the Western Front in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian soldiers in the Mesopotamian campaign in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian soldiers in the Gallipoli campaign in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian soldiers in the Sinai and Palestine campaign in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Indian soldiers in the East African campaign in World War 1",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Indian National Congress?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Mahatma Gandhi?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Non-Cooperation Movement?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Salt March?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Quit India Movement?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Jawaharlal Nehru?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Sardar Vallabhbhai Patel?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Subhas Chandra Bose?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Partition of India?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the role of Bhagat Singh in Indian independence?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was B.R. Ambedkar?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Indian Independence Act of 1947?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Radcliffe Line?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Indian Constitution?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Rajendra Prasad?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Indira Gandhi?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Green Revolution in India?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Lal Bahadur Shastri?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Indo-Pakistani War of 1971?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Emergency in India?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Shah Commission?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Morarji Desai?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Bhopal gas tragedy?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Rajiv Gandhi?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Bofors scandal?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was V.P. Singh?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Mandal Commission?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was P.V. Narasimha Rao?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Babri Masjid demolition?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Kargil War?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Atal Bihari Vajpayee?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Pokhran-II nuclear tests?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Manmohan Singh?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the 2008 Mumbai attacks?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Anna Hazare movement?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Narendra Modi?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Goods and Services Tax (GST)?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Arvind Kejriwal?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the demonetization in India?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Rahul Gandhi?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Citizenship Amendment Act (CAA)?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the abrogation of Article 370?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Amit Shah?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Supreme Court's verdict on Ayodhya?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Pranab Mukherjee?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Pulwama attack?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Ram Nath Kovind?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the COVID-19 pandemic in India?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was Narendra Modi's foreign policy advisor?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who was the first female prime minister of India?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What was the Nehru-Gandhi family's role in Indian politics?",
+    "label": "site:https://en.wikipedia.org"
+  },
+
+  {
+    "querysite": "What is the history of the Indus Valley Civilization?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "Who was Ashoka the Great?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the significance of the Maurya Empire?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "Who was Chandragupta Maurya?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the history of the Gupta Empire?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "Who was Kanishka the Great?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What are the contributions of ancient Indian mathematicians?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "Who was Aryabhata?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the history of the Delhi Sultanate?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "Who was Akbar the Great?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the significance of the Mughal Empire?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "Who was Shivaji Maharaj?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the history of the Maratha Empire?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the significance of the Battle of Plassey?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "Who was Tipu Sultan?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the history of the British Raj in India?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "Who was Mahatma Gandhi?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the significance of the Indian Independence Movement?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "Who was Jawaharlal Nehru?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the history of the Partition of India?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "Who was Sardar Vallabhbhai Patel?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the significance of the Indian Constitution?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "Who was B.R. Ambedkar?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the history of the Indian National Congress?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "Who was Subhas Chandra Bose?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the significance of the Quit India Movement?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "Who was Bhagat Singh?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the history of the Emergency in India?",
+    "label": "site:https://www.indiatoday.in"
+  },
+  {
+    "querysite": "Who was Indira Gandhi?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the significance of the 1971 India-Pakistan War?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "Who was Rajiv Gandhi?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the history of the Babri Masjid demolition?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "Who was Atal Bihari Vajpayee?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the significance of the Kargil War?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "Who is Narendra Modi?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the history of the Indian National Congress?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "Who is Rahul Gandhi?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the significance of the Goods and Services Tax (GST) in India?",
+    "label": "site:https://www.investopedia.com"
+  },
+  {
+    "querysite": "Who is Amit Shah?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the history of the Aam Aadmi Party (AAP)?",
+    "label": "site:https://www.ndtv.com"
+  },
+  {
+    "querysite": "Who is Arvind Kejriwal?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the significance of the Pulwama attack?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "Who is Yogi Adityanath?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the history of the Rashtriya Swayamsevak Sangh (RSS)?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the capital of India?",
+    "label": "site:https://en.wikipedia.org/wiki/India"
+  },
+  {
+    "querysite": "What is the population of India?",
+    "label": "site:https://en.wikipedia.org/wiki/India"
+  },
+  {
+    "querysite": "What are the states in India?",
+    "label": "site:https://en.wikipedia.org/wiki/States_and_union_territories_of_India"
+  },
+  {
+    "querysite": "What is the national language of India?",
+    "label": "site:https://en.wikipedia.org/wiki/India"
+  },
+  {
+    "querysite": "Who is the President of India?",
+    "label": "site:https://en.wikipedia.org/wiki/President_of_India"
+  },
+  {
+    "querysite": "Who is the Prime Minister of India?",
+    "label": "site:https://en.wikipedia.org/wiki/Prime_Minister_of_India"
+  },
+  {
+    "querysite": "What is the currency of India?",
+    "label": "site:https://en.wikipedia.org/wiki/Indian_rupee"
+  },
+  {
+    "querysite": "What are the major rivers in India?",
+    "label": "site:https://en.wikipedia.org/wiki/List_of_rivers_of_India"
+  },
+  {
+    "querysite": "What are the major mountains in India?",
+    "label": "site:https://en.wikipedia.org/wiki/List_of_mountains_in_India"
+  },
+  {
+    "querysite": "What is the national animal of India?",
+    "label": "site:https://en.wikipedia.org/wiki/Lion_of_India"
+  },
+  {
+    "querysite": "What is the national bird of India?",
+    "label": "site:https://en.wikipedia.org/wiki/Indian_peafowl"
+  },
+  {
+    "querysite": "What is the national flower of India?",
+    "label": "site:https://en.wikipedia.org/wiki/Lotus"
+  },
+  {
+    "querysite": "What is the national tree of India?",
+    "label": "site:https://en.wikipedia.org/wiki/Ficus_religiosa"
+  },
+  {
+    "querysite": "What is the history of the Indian independence movement?",
+    "label": "site:https://en.wikipedia.org/wiki/Indian_independence_movement"
+  },
+  {
+    "querysite": "What is the significance of Mahatma Gandhi?",
+    "label": "site:https://en.wikipedia.org/wiki/Mahatma_Gandhi"
+  },
+  {
+    "querysite": "What is the history of the Taj Mahal?",
+    "label": "site:https://en.wikipedia.org/wiki/Taj_Mahal"
+  },
+  {
+    "querysite": "What are the major festivals in India?",
+    "label": "site:https://en.wikipedia.org/wiki/Public_holidays_in_India"
+  },
+  {
+    "querysite": "What is the history of Indian classical music?",
+    "label": "site:https://en.wikipedia.org/wiki/Indian_classical_music"
+  },
+  {
+    "querysite": "What are the traditional dances of India?",
+    "label": "site:https://en.wikipedia.org/wiki/Dance_in_India"
+  },
+  {
+    "querysite": "What is the cuisine of India?",
+    "label": "site:https://en.wikipedia.org/wiki/Indian_cuisine"
+  },
+  {
+    "querysite": "What is the history of Indian cinema?",
+    "label": "site:https://en.wikipedia.org/wiki/Cinema_of_India"
+  },
+  {
+    "querysite": "Who are some famous Indian actors?",
+    "label": "site:https://en.wikipedia.org/wiki/Cinema_of_India"
+  },
+  {
+    "querysite": "What is the significance of Diwali?",
+    "label": "site:https://en.wikipedia.org/wiki/Diwali"
+  },
+  {
+    "querysite": "What is the importance of Holi?",
+    "label": "site:https://en.wikipedia.org/wiki/Holi"
+  },
+  {
+    "querysite": "What is the history of Indian cricket?",
+    "label": "site:https://en.wikipedia.org/wiki/Cricket_in_India"
+  },
+  {
+    "querysite": "Who are some famous Indian cricketers?",
+    "label": "site:https://en.wikipedia.org/wiki/Cricket_in_India"
+  },
+  {
+    "querysite": "What is the geography of India?",
+    "label": "site:https://en.wikipedia.org/wiki/Geography_of_India"
+  },
+  {
+    "querysite": "What is the climate of India?",
+    "label": "site:https://en.wikipedia.org/wiki/Climate_of_India"
+  },
+  {
+    "querysite": "What are the major industries in India?",
+    "label": "site:https://en.wikipedia.org/wiki/Economy_of_India"
+  },
+  {
+    "querysite": "What is the history of Indian railways?",
+    "label": "site:https://en.wikipedia.org/wiki/History_of_rail_transport_in_India"
+  },
+  {
+    "querysite": "What is the significance of Indian architecture?",
+    "label": "site:https://en.wikipedia.org/wiki/Architecture_of_India"
+  },
+  {
+    "querysite": "What is the education system in India like?",
+    "label": "site:https://en.wikipedia.org/wiki/Education_in_India"
+  },
+  {
+    "querysite": "What are the major universities in India?",
+    "label": "site:https://en.wikipedia.org/wiki/List_of_universities_in_India"
+  },
+  {
+    "querysite": "What is the history of Indian philosophy?",
+    "label": "site:https://en.wikipedia.org/wiki/Indian_philosophy"
+  },
+  {
+    "querysite": "Who are some famous Indian philosophers?",
+    "label": "site:https://en.wikipedia.org/wiki/Indian_philosophy"
+  },
+  {
+    "querysite": "What is the history of Indian literature?",
+    "label": "site:https://en.wikipedia.org/wiki/Indian_literature"
+  },
+  {
+    "querysite": "Who are some famous Indian authors?",
+    "label": "site:https://en.wikipedia.org/wiki/Indian_literature"
+  },
+  {
+    "querysite": "What is the significance of Indian mythology?",
+    "label": "site:https://en.wikipedia.org/wiki/Indian_mythology"
+  },
+  {
+    "querysite": "What are the major languages spoken in India?",
+    "label": "site:https://en.wikipedia.org/wiki/Languages_of_India"
+  },
+  {
+    "querysite": "What is the history of Indian art?",
+    "label": "site:https://en.wikipedia.org/wiki/Indian_art"
+  },
+  {
+    "querysite": "Who are some famous Indian artists?",
+    "label": "site:https://en.wikipedia.org/wiki/Indian_art"
+  },
+  {
+    "querysite": "What is the significance of Indian festivals?",
+    "label": "site:https://en.wikipedia.org/wiki/Public_holidays_in_India"
+  },
+  {
+    "querysite": "What are the rules of basketball?",
+    "label": "site:https://www.nba.com"
+  },
+  {
+    "querysite": "Who is Lionel Messi?",
+    "label": "site:https://www.fcbarcelona.com"
+  },
+  {
+    "querysite": "What is the history of the FIFA World Cup?",
+    "label": "site:https://www.fifa.com"
+  },
+  {
+    "querysite": "Who won the last Super Bowl?",
+    "label": "site:https://www.nfl.com"
+  },
+  {
+    "querysite": "What are the events in the Summer Olympics?",
+    "label": "site:https://www.olympic.org"
+  },
+  {
+    "querysite": "What is the Tour de France?",
+    "label": "site:https://www.letour.fr"
+  },
+  {
+    "querysite": "Who is the GOAT in tennis?",
+    "label": "site:https://www.atptour.com"
+  },
+  {
+    "querysite": "What is the history of the Ryder Cup?",
+    "label": "site:https://www.rydercup.com"
+  },
+  {
+    "querysite": "What are the best golf courses in the world?",
+    "label": "site:https://www.golfdigest.com"
+  },
+  {
+    "querysite": "Who is the fastest man in the world?",
+    "label": "site:https://www.worldathletics.org"
+  },
+  {
+    "querysite": "What is the history of the Wimbledon Championships?",
+    "label": "site:https://www.wimbledon.com"
+  },
+  {
+    "querysite": "What are the rules of American football?",
+    "label": "site:https://www.nfl.com"
+  },
+  {
+    "querysite": "Who are the best athletes of all time?",
+    "label": "site:https://www.si.com"
+  },
+  {
+    "querysite": "What is the history of the Masters Tournament?",
+    "label": "site:https://www.masters.com"
+  },
+  {
+    "querysite": "What are the basic rules of soccer?",
+    "label": "site:https://www.fifa.com"
+  },
+  {
+    "querysite": "Who are the top Formula 1 drivers?",
+    "label": "site:https://www.formula1.com"
+  },
+  {
+    "querysite": "What are the events in the Winter Olympics?",
+    "label": "site:https://www.olympic.org"
+  },
+  {
+    "querysite": "What is the history of the NBA Finals?",
+    "label": "site:https://www.nba.com"
+  },
+  {
+    "querysite": "Who is the highest paid athlete?",
+    "label": "site:https://www.forbes.com"
+  },
+  {
+    "querysite": "What is the history of the World Series?",
+    "label": "site:https://www.mlb.com"
+  },
+  {
+    "querysite": "Who is the best female soccer player?",
+    "label": "site:https://www.fifa.com"
+  },
+  {
+    "querysite": "What is the importance of sports psychology?",
+    "label": "site:https://www.apa.org"
+  },
+  {
+    "querysite": "What are the benefits of playing sports?",
+    "label": "site:https://www.verywellfit.com"
+  },
+  {
+    "querysite": "What are the main muscle groups used in swimming?",
+    "label": "site:https://www.swimsmooth.com"
+  },
+  {
+    "querysite": "What are the top 10 tennis rivalries?",
+    "label": "site:https://www.atptour.com"
+  },
+  {
+    "querysite": "What are the different types of martial arts?",
+    "label": "site:https://www.artofmanliness.com"
+  },
+  {
+    "querysite": "What is the history of the NFL Draft?",
+    "label": "site:https://www.nfl.com"
+  },
+  {
+    "querysite": "Who are the best NBA players without a championship?",
+    "label": "site:https://www.si.com"
+  },
+  {
+    "querysite": "What is the history of the Rugby World Cup?",
+    "label": "site:https://www.rugbyworldcup.com"
+  },
+  {
+    "querysite": "What are the basic rules of cricket?",
+    "label": "site:https://www.icc-cricket.com"
+  },
+  {
+    "querysite": "Who is the most successful athlete of all time?",
+    "label": "site:https://www.sportingnews.com"
+  },
+  {
+    "querysite": "What are the main positions in soccer?",
+    "label": "site:https://www.fifa.com"
+  },
+  {
+    "querysite": "What is the history of the Daytona 500?",
+    "label": "site:https://www.daytonainternationalspeedway.com"
+  },
+  {
+    "querysite": "Who are the best female tennis players?",
+    "label": "site:https://www.wtatennis.com"
+  },
+  {
+    "querysite": "What is the importance of sportsmanship?",
+    "label": "site:https://www.positivecoach.org"
+  },
+  {
+    "querysite": "What are the best sports documentaries?",
+    "label": "site:https://www.imdb.com"
+  },
+  {
+    "querysite": "Who is the best cricket player in the world?",
+    "label": "site:https://www.icc-cricket.com"
+  },
+  {
+    "querysite": "What are the main tactics in football?",
+    "label": "site:https://www.coachesvoice.com"
+  },
+  {
+    "querysite": "What is the history of the NBA All-Star Game?",
+    "label": "site:https://www.nba.com"
+  },
+  {
+    "querysite": "Who are the top female athletes?",
+    "label": "site:https://www.forbes.com"
+  },
+  {
+    "querysite": "What is the history of the Stanley Cup?",
+    "label": "site:https://www.nhl.com"
+  },
+  {
+    "querysite": "Who are the best male gymnasts?",
+    "label": "site:https://www.olympic.org"
+  },
+  {
+    "querysite": "What are the most common injuries in sports?",
+    "label": "site:https://www.hopkinsmedicine.org"
+  },
+  {
+    "querysite": "What are the main muscle groups used in running?",
+    "label": "site:https://www.runnersworld.com"
+  },
+  {
+    "querysite": "What is the history of the UEFA Champions League?",
+    "label": "site:https://www.uefa.com"
+  },
+  {
+    "querysite": "Who is the best male swimmer?",
+    "label": "site:https://www.olympic.org"
+  },
+  {
+    "querysite": "What are the best sports movies of all time?",
+    "label": "site:https://www.imdb.com"
+  },
+  { "querysite": "Who is LeBron James?", "label": "site:https://www.nba.com" },
+  {
+    "querysite": "What are the Olympic Games?",
+    "label": "site:https://www.olympic.org"
+  },
+  {
+    "querysite": "Who is Cristiano Ronaldo?",
+    "label": "site:https://www.fifa.com"
+  },
+  {
+    "querysite": "What are the basic rules of soccer?",
+    "label": "site:https://www.fifa.com"
+  },
+  {
+    "querysite": "Who won the FIFA World Cup in 2018?",
+    "label": "site:https://www.fifa.com"
+  },
+  {
+    "querysite": "What is the history of baseball?",
+    "label": "site:https://www.mlb.com"
+  },
+  { "querysite": "Who is Mike Trout?", "label": "site:https://www.mlb.com" },
+  {
+    "querysite": "What are the Grand Slam tournaments in tennis?",
+    "label": "site:https://www.atptour.com"
+  },
+  {
+    "querysite": "Who is Roger Federer?",
+    "label": "site:https://www.atptour.com"
+  },
+  {
+    "querysite": "What is the Tour de France?",
+    "label": "site:https://www.letour.fr"
+  },
+  { "querysite": "Who is Egan Bernal?", "label": "site:https://www.letour.fr" },
+  {
+    "querysite": "What are the basic rules of American football?",
+    "label": "site:https://www.nfl.com"
+  },
+  { "querysite": "Who is Tom Brady?", "label": "site:https://www.nfl.com" },
+  {
+    "querysite": "What is the history of the NBA?",
+    "label": "site:https://www.nba.com"
+  },
+  {
+    "querysite": "Who is Michael Jordan?",
+    "label": "site:https://www.nba.com"
+  },
+  {
+    "querysite": "What are the main events in the UFC?",
+    "label": "site:https://www.ufc.com"
+  },
+  {
+    "querysite": "Who is Conor McGregor?",
+    "label": "site:https://www.ufc.com"
+  },
+  {
+    "querysite": "What is the history of the NHL?",
+    "label": "site:https://www.nhl.com"
+  },
+  { "querysite": "Who is Wayne Gretzky?", "label": "site:https://www.nhl.com" },
+  {
+    "querysite": "What is the Premier League?",
+    "label": "site:https://www.premierleague.com"
+  },
+  { "querysite": "Who is Lionel Messi?", "label": "site:https://www.fifa.com" },
+  {
+    "querysite": "What is the history of golf?",
+    "label": "site:https://www.pgatour.com"
+  },
+  {
+    "querysite": "Who is Tiger Woods?",
+    "label": "site:https://www.pgatour.com"
+  },
+  {
+    "querysite": "What is the NBA Draft?",
+    "label": "site:https://www.nba.com"
+  },
+  {
+    "querysite": "Who is Zion Williamson?",
+    "label": "site:https://www.nba.com"
+  },
+  {
+    "querysite": "What are the basic rules of rugby?",
+    "label": "site:https://www.world.rugby"
+  },
+  {
+    "querysite": "Who is Dan Carter?",
+    "label": "site:https://www.world.rugby"
+  },
+  {
+    "querysite": "What are the basic rules of cricket?",
+    "label": "site:https://www.icc-cricket.com"
+  },
+  {
+    "querysite": "Who is Virat Kohli?",
+    "label": "site:https://www.icc-cricket.com"
+  },
+  {
+    "querysite": "What is the Super Bowl?",
+    "label": "site:https://www.nfl.com"
+  },
+  {
+    "querysite": "Who is Patrick Mahomes?",
+    "label": "site:https://www.nfl.com"
+  },
+  {
+    "querysite": "What are the basic rules of boxing?",
+    "label": "site:https://www.boxinginsider.com"
+  },
+  {
+    "querysite": "Who is Canelo Alvarez?",
+    "label": "site:https://www.boxinginsider.com"
+  },
+  {
+    "querysite": "What is the UEFA Champions League?",
+    "label": "site:https://www.uefa.com"
+  },
+  { "querysite": "Who is Lionel Messi?", "label": "site:https://www.uefa.com" },
+  {
+    "querysite": "What is the history of the NFL?",
+    "label": "site:https://www.nfl.com"
+  },
+  {
+    "querysite": "Who is Peyton Manning?",
+    "label": "site:https://www.nfl.com"
+  },
+  {
+    "querysite": "What is the NBA Finals?",
+    "label": "site:https://www.nba.com"
+  },
+  {
+    "querysite": "Who is Shaquille O'Neal?",
+    "label": "site:https://www.nba.com"
+  },
+  {
+    "querysite": "What are the basic rules of swimming?",
+    "label": "site:https://www.teamusa.org"
+  },
+  {
+    "querysite": "Who is Michael Phelps?",
+    "label": "site:https://www.teamusa.org"
+  },
+  {
+    "querysite": "What is the history of Formula 1?",
+    "label": "site:https://www.formula1.com"
+  },
+  {
+    "querysite": "Who is Lewis Hamilton?",
+    "label": "site:https://www.formula1.com"
+  },
+  {
+    "querysite": "What is the FIFA Club World Cup?",
+    "label": "site:https://www.fifa.com"
+  },
+  { "querysite": "Who is Lionel Messi?", "label": "site:https://www.fifa.com" },
+  {
+    "querysite": "What are the basic rules of volleyball?",
+    "label": "site:https://www.teamusa.org"
+  },
+  {
+    "querysite": "Who is Misty May-Treanor?",
+    "label": "site:https://www.teamusa.org"
+  },
+  {
+    "querysite": "What is the history of NASCAR?",
+    "label": "site:https://www.nascar.com"
+  },
+  {
+    "querysite": "Who is Dale Earnhardt?",
+    "label": "site:https://www.nascar.com"
+  },
+  {
+    "querysite": "What is the Rugby World Cup?",
+    "label": "site:https://www.world.rugby"
+  },
+  { "querysite": "latest sports news", "label": "site:https://www.espn.com" },
+  { "querysite": "upcoming NBA games", "label": "site:https://www.nba.com" },
+  {
+    "querysite": "Premier League standings",
+    "label": "site:https://www.premierleague.com"
+  },
+  { "querysite": "latest NFL scores", "label": "site:https://www.nfl.com" },
+  { "querysite": "Olympics schedule", "label": "site:https://www.olympic.org" },
+  { "querysite": "top soccer players", "label": "site:https://www.fifa.com" },
+  {
+    "querysite": "Wimbledon winners",
+    "label": "site:https://www.wimbledon.com"
+  },
+  { "querysite": "Super Bowl history", "label": "site:https://www.nfl.com" },
+  {
+    "querysite": "World Series champions",
+    "label": "site:https://www.mlb.com"
+  },
+  { "querysite": "UFC upcoming fights", "label": "site:https://www.ufc.com" },
+  {
+    "querysite": "latest cricket scores",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  {
+    "querysite": "Tour de France route",
+    "label": "site:https://www.letour.fr"
+  },
+  { "querysite": "NBA MVP winners", "label": "site:https://www.nba.com" },
+  {
+    "querysite": "FIFA World Cup winners",
+    "label": "site:https://www.fifa.com"
+  },
+  {
+    "querysite": "Masters Tournament results",
+    "label": "site:https://www.masters.com"
+  },
+  {
+    "querysite": "latest Formula 1 news",
+    "label": "site:https://www.formula1.com"
+  },
+  { "querysite": "NHL latest news", "label": "site:https://www.nhl.com" },
+  {
+    "querysite": "WWE WrestleMania results",
+    "label": "site:https://www.wwe.com"
+  },
+  { "querysite": "La Liga standings", "label": "site:https://www.laliga.com" },
+  {
+    "querysite": "Serie A latest news",
+    "label": "site:https://www.legaseriea.it"
+  },
+  {
+    "querysite": "Bundesliga latest scores",
+    "label": "site:https://www.bundesliga.com"
+  },
+  {
+    "querysite": "Champions League schedule",
+    "label": "site:https://www.uefa.com"
+  },
+  {
+    "querysite": "NCAA basketball rankings",
+    "label": "site:https://www.ncaa.com"
+  },
+  { "querysite": "latest golf news", "label": "site:https://www.pgatour.com" },
+  {
+    "querysite": "boxing latest news",
+    "label": "site:https://www.boxingnews24.com"
+  },
+  {
+    "querysite": "NASCAR upcoming races",
+    "label": "site:https://www.nascar.com"
+  },
+  { "querysite": "MLB latest news", "label": "site:https://www.mlb.com" },
+  { "querysite": "NFL draft news", "label": "site:https://www.nfl.com" },
+  { "querysite": "NBA draft prospects", "label": "site:https://www.nba.com" },
+  { "querysite": "WNBA latest news", "label": "site:https://www.wnba.com" },
+  {
+    "querysite": "Rugby World Cup results",
+    "label": "site:https://www.rugbyworldcup.com"
+  },
+  {
+    "querysite": "latest sports injuries",
+    "label": "site:https://www.espn.com"
+  },
+  {
+    "querysite": "Paralympics latest news",
+    "label": "site:https://www.paralympic.org"
+  },
+  { "querysite": "FIFA rankings", "label": "site:https://www.fifa.com" },
+  {
+    "querysite": "Cricket World Cup results",
+    "label": "site:https://www.icc-cricket.com"
+  },
+  {
+    "querysite": "NCAA football latest news",
+    "label": "site:https://www.ncaa.com"
+  },
+  { "querysite": "NHL draft prospects", "label": "site:https://www.nhl.com" },
+  {
+    "querysite": "best NBA players of all time",
+    "label": "site:https://www.espn.com"
+  },
+  {
+    "querysite": "greatest soccer matches",
+    "label": "site:https://www.espn.com"
+  },
+  {
+    "querysite": "best Olympic moments",
+    "label": "site:https://www.olympic.org"
+  },
+  {
+    "querysite": "most famous golf courses",
+    "label": "site:https://www.golfdigest.com"
+  },
+  {
+    "querysite": "greatest boxing matches",
+    "label": "site:https://www.boxingnews24.com"
+  },
+  {
+    "querysite": "top tennis players",
+    "label": "site:https://www.atptour.com"
+  },
+  {
+    "querysite": "greatest NFL quarterbacks",
+    "label": "site:https://www.nfl.com"
+  },
+  { "querysite": "best MLB pitchers", "label": "site:https://www.mlb.com" },
+  {
+    "querysite": "most famous rugby players",
+    "label": "site:https://www.espn.com"
+  },
+  {
+    "querysite": "most successful F1 drivers",
+    "label": "site:https://www.formula1.com"
+  },
+  { "querysite": "famous WWE wrestlers", "label": "site:https://www.wwe.com" },
+  { "querysite": "top NHL players", "label": "site:https://www.nhl.com" },
+  {
+    "querysite": "famous sports rivalries",
+    "label": "site:https://www.espn.com"
+  },
+  {
+    "querysite": "greatest World Series games",
+    "label": "site:https://www.mlb.com"
+  },
+  {
+    "querysite": "top NCAA basketball teams",
+    "label": "site:https://www.ncaa.com"
+  },
+  {
+    "querysite": "most famous soccer stadiums",
+    "label": "site:https://www.fifa.com"
+  },
+  {
+    "querysite": "greatest moments in sports",
+    "label": "site:https://www.espn.com"
+  },
+  {
+    "querysite": "most decorated Olympians",
+    "label": "site:https://www.olympic.org"
+  },
+  {
+    "querysite": "longest home runs in MLB",
+    "label": "site:https://www.mlb.com"
+  },
+  {
+    "querysite": "highest scoring NBA games",
+    "label": "site:https://www.nba.com"
+  },
+  {
+    "querysite": "greatest Super Bowl moments",
+    "label": "site:https://www.nfl.com"
+  },
+  { "querysite": "best World Cup goals", "label": "site:https://www.fifa.com" },
+  {
+    "querysite": "top marathon runners",
+    "label": "site:https://www.worldathletics.org"
+  },
+  {
+    "querysite": "most popular NBA teams",
+    "label": "site:https://www.nba.com"
+  },
+  {
+    "querysite": "greatest NCAA football teams",
+    "label": "site:https://www.ncaa.com"
+  },
+  { "querysite": "best NHL goalies", "label": "site:https://www.nhl.com" },
+  {
+    "querysite": "top women's tennis players",
+    "label": "site:https://www.wtatennis.com"
+  },
+  {
+    "querysite": "famous cricket matches",
+    "label": "site:https://www.espncricinfo.com"
+  },
+  { "querysite": "top NFL running backs", "label": "site:https://www.nfl.com" },
+  {
+    "querysite": "most famous Olympic records",
+    "label": "site:https://www.olympic.org"
+  },
+  {
+    "querysite": "best NBA championship teams",
+    "label": "site:https://www.nba.com"
+  },
+  {
+    "querysite": "greatest tennis matches",
+    "label": "site:https://www.atptour.com"
+  },
+  {
+    "querysite": "most famous golf tournaments",
+    "label": "site:https://www.pgatour.com"
+  },
+  {
+    "querysite": "top sports documentaries",
+    "label": "site:https://www.espn.com"
+  },
+  { "querysite": "best sports movies", "label": "site:https://www.imdb.com" },
+  {
+    "querysite": "latest movie releases",
+    "label": "site:https://www.imdb.com"
+  },
+  {
+    "querysite": "top box office movies",
+    "label": "site:https://www.boxofficemojo.com"
+  },
+  { "querysite": "best action movies", "label": "site:https://www.imdb.com" },
+  {
+    "querysite": "most popular comedies",
+    "label": "site:https://www.imdb.com"
+  },
+  {
+    "querysite": "greatest sci-fi movies",
+    "label": "site:https://www.imdb.com"
+  },
+  { "querysite": "best horror movies", "label": "site:https://www.imdb.com" },
+  { "querysite": "top animated movies", "label": "site:https://www.imdb.com" },
+  {
+    "querysite": "most famous movie directors",
+    "label": "site:https://www.imdb.com"
+  },
+  { "querysite": "best romantic movies", "label": "site:https://www.imdb.com" },
+  {
+    "querysite": "greatest movie franchises",
+    "label": "site:https://www.imdb.com"
+  },
+  {
+    "querysite": "top movie soundtracks",
+    "label": "site:https://www.imdb.com"
+  },
+  { "querysite": "most famous actors", "label": "site:https://www.imdb.com" },
+  {
+    "querysite": "most famous actresses",
+    "label": "site:https://www.imdb.com"
+  },
+  { "querysite": "Oscar winners", "label": "site:https://www.oscars.org" },
+  {
+    "querysite": "upcoming Marvel movies",
+    "label": "https://www.marvel.com/movies"
+  },
+  {
+    "querysite": "latest iPhone release",
+    "label": "https://www.apple.com/iphone/"
+  },
+  { "querysite": "weather forecast", "label": "https://weather.com/" },
+  {
+    "querysite": "world population data",
+    "label": "https://www.worldometers.info/world-population/"
+  },
+  {
+    "querysite": "how to apply for a passport",
+    "label": "https://travel.state.gov/content/travel/en/passports.html"
+  },
+  { "querysite": "NASA missions", "label": "https://www.nasa.gov/missions/" },
+  {
+    "querysite": "current stock market news",
+    "label": "https://www.cnbc.com/world/?region=world"
+  },
+  { "querysite": "government benefits", "label": "https://www.benefits.gov/" },
+  {
+    "querysite": "best movies of all time",
+    "label": "https://www.imdb.com/chart/top/"
+  },
+  { "querysite": "health tips", "label": "https://www.healthline.com/" },
+  { "querysite": "how to file taxes", "label": "https://www.irs.gov/filing" },
+  {
+    "querysite": "space exploration news",
+    "label": "https://www.space.com/news"
+  },
+  {
+    "querysite": "upcoming Marvel movies",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Iron Man",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Thor",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Captain America",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "The Avengers",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Guardians of the Galaxy",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Doctor Strange",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Black Panther",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Ant-Man",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Spider-Man",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "X-Men",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Hulk",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Wolverine",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Deadpool",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Fantastic Four",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Thanos",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Infinity Stones",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Tony Stark",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Steve Rogers",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Thor Odinson",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Natasha Romanoff",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Clint Barton",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Bruce Banner",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Peter Parker",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Black Widow",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Hawkeye",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Hulk (Bruce Banner)",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Falcon",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Bucky Barnes",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Scarlet Witch",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Vision",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Ant-Man (Scott Lang)",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "War Machine",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Winter Soldier",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Wasp",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Doctor Strange (Stephen Strange)",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Black Panther (T'Challa)",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Captain Marvel",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Groot",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Rocket",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Star-Lord",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Gamora",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Nebula",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Drax the Destroyer",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Mantis",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Nick Fury",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Phil Coulson",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Maria Hill",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Happy Hogan",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Peggy Carter",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Jane Foster",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Pepper Potts",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Shuri",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Okoye",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Nakia",
+    "label": "site:https://marvelcinematicuniverse.fandom"
+  },
+  {
+    "querysite": "Who is Iron Man?",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Tell me about Iron Man 3",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "What happened in Avengers: Endgame?",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Give me information about Thor",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Describe Captain America",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Explain the storyline of Guardians of the Galaxy",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Details about Doctor Strange",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "What can you tell me about Black Panther?",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Give me some facts about Ant-Man",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Can you summarize Spider-Man: Homecoming?",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Tell me about the X-Men",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "What are the powers of Hulk?",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "What is the background of Wolverine?",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Explain Deadpool's origin story",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Who are the members of Fantastic Four?",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "What are Thanos' motivations?",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Describe the Infinity Stones",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "What is Tony Stark's role in the MCU?",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "What is Steve Rogers' background?",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "Tell me about Thor Odinson",
+    "label": "site:https://marvelcinematicuniverse.fandom.com"
+  },
+  {
+    "querysite": "What is quantum mechanics?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Explain the theory of relativity",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who discovered gravity?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  { "querysite": "What is DNA?", "label": "site:https://en.wikipedia.org" },
+  {
+    "querysite": "Describe the process of photosynthesis",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What are Newton's laws of motion?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What is the periodic table?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Explain the big bang theory",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What is black hole?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Describe the water cycle",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Who invented the telephone?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What is artificial intelligence?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Explain the theory of evolution",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What are the different states of matter?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Describe the structure of an atom",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What is the greenhouse effect?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Explain the concept of plate tectonics",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What is climate change?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Describe the human digestive system",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What is the function of the heart?",
+    "label": "site:https://en.wikipedia.org"
+  },
+
+  {
+    "querysite": "Who won the last World Cup?",
+    "label": "site:https://www.fifa.com"
+  },
+  {
+    "querysite": "What are the rules of basketball?",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "Explain the offside rule in soccer",
+    "label": "site:https://en.wikipedia.org"
+  },
+  {
+    "querysite": "What is the theory of relativity?",
+    "label": "site:https://www.nasa.gov"
+  },
+  {
+    "querysite": "Explain the laws of thermodynamics",
+    "label": "site:https://www.khanacademy.org"
+  },
+  {
+    "querysite": "What are the planets in our solar system?",
+    "label": "site:https://www.nasa.gov"
+  },
+  {
+    "querysite": "Who discovered penicillin?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "How does photosynthesis work?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the process of cell division?",
+    "label": "site:https://www.khanacademy.org"
+  },
+  {
+    "querysite": "What are Newton's laws of motion?",
+    "label": "site:https://www.khanacademy.org"
+  },
+  {
+    "querysite": "Explain the Big Bang theory",
+    "label": "site:https://www.nasa.gov"
+  },
+  { "querysite": "What is DNA?", "label": "site:https://www.genome.gov" },
+  {
+    "querysite": "What is quantum mechanics?",
+    "label": "site:https://www.khanacademy.org"
+  },
+  {
+    "querysite": "Who was Albert Einstein?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What are black holes?",
+    "label": "site:https://www.nasa.gov"
+  },
+  {
+    "querysite": "Describe the water cycle",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What are the states of matter?",
+    "label": "site:https://www.khanacademy.org"
+  },
+  {
+    "querysite": "What causes earthquakes?",
+    "label": "site:https://www.usgs.gov"
+  },
+  {
+    "querysite": "How do volcanoes form?",
+    "label": "site:https://www.usgs.gov"
+  },
+  {
+    "querysite": "What is climate change?",
+    "label": "site:https://www.climate.gov"
+  },
+  {
+    "querysite": "Explain evolution by natural selection",
+    "label": "site:https://www.khanacademy.org"
+  },
+  {
+    "querysite": "What are the different types of energy?",
+    "label": "site:https://www.energy.gov"
+  },
+  {
+    "querysite": "What is the human genome project?",
+    "label": "site:https://www.genome.gov"
+  },
+  {
+    "querysite": "What are the Olympic Games?",
+    "label": "site:https://www.olympic.org"
+  },
+  {
+    "querysite": "Who is Michael Jordan?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What are the rules of soccer?",
+    "label": "site:https://www.fifa.com"
+  },
+  {
+    "querysite": "What is the history of basketball?",
+    "label": "site:https://www.nba.com"
+  },
+  {
+    "querysite": "Who is Serena Williams?",
+    "label": "site:https://www.wtatennis.com"
+  },
+  {
+    "querysite": "What are the Grand Slam tournaments?",
+    "label": "site:https://www.atptour.com"
+  },
+  {
+    "querysite": "What is the Tour de France?",
+    "label": "site:https://www.letour.fr"
+  },
+  {
+    "querysite": "Who are the best cricket players?",
+    "label": "site:https://www.icc-cricket.com"
+  },
+  {
+    "querysite": "What are the basic rules of baseball?",
+    "label": "site:https://www.mlb.com"
+  },
+  {
+    "querysite": "What is the history of the World Cup?",
+    "label": "site:https://www.fifa.com"
+  },
+  {
+    "querysite": "What is the role of the Federal Reserve?",
+    "label": "site:https://www.federalreserve.gov"
+  },
+  {
+    "querysite": "Explain supply and demand",
+    "label": "site:https://www.investopedia.com"
+  },
+  { "querysite": "What is GDP?", "label": "site:https://www.worldbank.org" },
+  {
+    "querysite": "Who is Adam Smith?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What are stock markets?",
+    "label": "site:https://www.nyse.com"
+  },
+  {
+    "querysite": "Explain the concept of inflation",
+    "label": "site:https://www.investopedia.com"
+  },
+  {
+    "querysite": "What are bonds and how do they work?",
+    "label": "site:https://www.investopedia.com"
+  },
+  {
+    "querysite": "What is fiscal policy?",
+    "label": "site:https://www.investopedia.com"
+  },
+  {
+    "querysite": "What is monetary policy?",
+    "label": "site:https://www.federalreserve.gov"
+  },
+  {
+    "querysite": "What are the types of unemployment?",
+    "label": "site:https://www.investopedia.com"
+  },
+  {
+    "querysite": "Who is the current president of the United States?",
+    "label": "site:https://www.whitehouse.gov"
+  },
+  {
+    "querysite": "What are the branches of the U.S. government?",
+    "label": "site:https://www.usa.gov"
+  },
+  {
+    "querysite": "What is the U.S. Constitution?",
+    "label": "site:https://www.archives.gov"
+  },
+  {
+    "querysite": "What is Congress?",
+    "label": "site:https://www.congress.gov"
+  },
+  {
+    "querysite": "Who are the Supreme Court Justices?",
+    "label": "site:https://www.supremecourt.gov"
+  },
+  {
+    "querysite": "Explain the electoral college",
+    "label": "site:https://www.archives.gov"
+  },
+  {
+    "querysite": "What are the political parties in the USA?",
+    "label": "site:https://www.usa.gov"
+  },
+  { "querysite": "What is NATO?", "label": "site:https://www.nato.int" },
+  {
+    "querysite": "What is the United Nations?",
+    "label": "site:https://www.un.org"
+  },
+  {
+    "querysite": "Who is the Secretary General of the UN?",
+    "label": "site:https://www.un.org"
+  },
+  { "querysite": "What are human rights?", "label": "site:https://www.un.org" },
+  { "querysite": "What is Brexit?", "label": "site:https://www.bbc.com" },
+  {
+    "querysite": "What is the European Union?",
+    "label": "site:https://www.europa.eu"
+  },
+  {
+    "querysite": "What is the World Health Organization?",
+    "label": "site:https://www.who.int"
+  },
+  {
+    "querysite": "What is the World Trade Organization?",
+    "label": "site:https://www.wto.org"
+  },
+  {
+    "querysite": "Who are the G7 countries?",
+    "label": "site:https://www.international.gc.ca"
+  },
+  {
+    "querysite": "What is the International Monetary Fund?",
+    "label": "site:https://www.imf.org"
+  },
+  {
+    "querysite": "What are the Sustainable Development Goals?",
+    "label": "site:https://www.un.org"
+  },
+  {
+    "querysite": "Explain the Kyoto Protocol",
+    "label": "site:https://www.un.org"
+  },
+  {
+    "querysite": "What is the Paris Agreement?",
+    "label": "site:https://www.un.org"
+  },
+  {
+    "querysite": "What are greenhouse gases?",
+    "label": "site:https://www.epa.gov"
+  },
+  {
+    "querysite": "Who was Winston Churchill?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What caused World War II?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What is the significance of D-Day?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What was the Cold War?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What is NATO's role in world security?",
+    "label": "site:https://www.nato.int"
+  },
+  {
+    "querysite": "What is the function of the World Bank?",
+    "label": "site:https://www.worldbank.org"
+  },
+  {
+    "querysite": "What are the main goals of the WHO?",
+    "label": "site:https://www.who.int"
+  },
+  {
+    "querysite": "Explain the concept of global warming",
+    "label": "site:https://www.climate.gov"
+  },
+  {
+    "querysite": "What is the function of the CIA?",
+    "label": "site:https://www.cia.gov"
+  },
+  {
+    "querysite": "What is the history of the FBI?",
+    "label": "site:https://www.fbi.gov"
+  },
+  {
+    "querysite": "Who was Abraham Lincoln?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What are the main principles of democracy?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What is the Magna Carta?",
+    "label": "site:https://www.archives.gov"
+  },
+  {
+    "querysite": "What is the significance of the Bill of Rights?",
+    "label": "site:https://www.archives.gov"
+  },
+  {
+    "querysite": "Who was Martin Luther King Jr.?",
+    "label": "site:https://www.history.com"
+  },
+  {
+    "querysite": "What is the purpose of the United Nations Security Council?",
+    "label": "site:https://www.un.org"
+  },
+  {
+    "querysite": "What are the causes of poverty?",
+    "label": "site:https://www.worldbank.org"
+  },
+  {
+    "querysite": "What is renewable energy?",
+    "label": "site:https://www.energy.gov"
+  },
+  {
+    "querysite": "What are the impacts of deforestation?",
+    "label": "site:https://www.worldwildlife.org"
+  },
+  {
+    "querysite": "What is biodiversity?",
+    "label": "site:https://www.biodiversitylibrary.org"
+  },
+  {
+    "querysite": "Explain the greenhouse effect",
+    "label": "site:https://www.epa.gov"
+  },
+  {
+    "querysite": "What are the different types of ecosystems?",
+    "label": "site:https://www.worldwildlife.org"
+  },
+  {
+    "querysite": "What is an endangered species?",
+    "label": "site:https://www.worldwildlife.org"
+  },
+  {
+    "querysite": "What are fossil fuels?",
+    "label": "site:https://www.energy.gov"
+  },
+  {
+    "querysite": "Explain the concept of carbon footprint",
+    "label": "site:https://www.epa.gov"
+  },
+  {
+    "querysite": "What is nuclear energy?",
+    "label": "site:https://www.energy.gov"
+  },
+  {
+    "querysite": "What is solar energy?",
+    "label": "site:https://www.energy.gov"
+  },
+  {
+    "querysite": "What is wind energy?",
+    "label": "site:https://www.energy.gov"
+  },
+  {
+    "querysite": "What are the effects of ocean pollution?",
+    "label": "site:https://www.epa.gov"
+  },
+  {
+    "querysite": "What is marine biology?",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What are the effects of plastic pollution?",
+    "label": "site:https://www.epa.gov"
+  },
+  {
+    "querysite": "What is the importance of coral reefs?",
+    "label": "site:https://www.noaa.gov"
+  },
+  { "querysite": "What is acid rain?", "label": "site:https://www.epa.gov" },
+  {
+    "querysite": "Explain the water cycle",
+    "label": "site:https://www.britannica.com"
+  },
+  {
+    "querysite": "What are the causes of climate change?",
+    "label": "site:https://www.climate.gov"
+  },
+  {
+    "querysite": "What is the ozone layer?",
+    "label": "site:https://www.epa.gov"
+  },
+  {
+    "querysite": "What is genetic engineering?",
+    "label": "site:https://www.genome.gov"
+  },
+  {
+    "querysite": "What is artificial intelligence?",
+    "label": "site:https://www.ibm.com"
+  },
+  {
+    "querysite": "What is the importance of data science?",
+    "label": "site:https://www.ibm.com"
+  },
+  {
+    "querysite": "What is the Internet of Things?",
+    "label": "site:https://www.ibm.com"
+  },
+  {
+    "querysite": "What is machine learning?",
+    "label": "site:https://www.ibm.com"
+  },
+  {
+    "querysite": "What is blockchain technology?",
+    "label": "site:https://www.ibm.com"
+  },
+  {
+    "querysite": "What is cybersecurity?",
+    "label": "site:https://www.cisa.gov"
+  },
+  {
+    "querysite": "What are the benefits of cloud computing?",
+    "label": "site:https://www.ibm.com"
+  },
+  {
+    "querysite": "What is the importance of big data?",
+    "label": "site:https://www.ibm.com"
+  },
+  {
+    "querysite": "What is quantum computing?",
+    "label": "site:https://www.ibm.com"
+  },
+  {
+    "querysite": "Explain the concept of virtual reality",
+    "label": "site:https://www.ibm.com"
+  },
+  {
+    "querysite": "What is augmented reality?",
+    "label": "site:https://www.ibm.com"
+  },
+  {
+    "querysite": "What is the function of an operating system?",
+    "label": "site:https://www.ibm.com"
+  },
+  {
+    "querysite": "What is software development?",
+    "label": "site:https://www.ibm.com"
+  },
+  {
+    "querysite": "What is computer programming?",
+    "label": "site:https://www.khanacademy.org"
+  },
+  {
+    "querysite": "What is the significance of open source software?",
+    "label": "site:https://www.opensource.org"
+  },
+  {
+    "querysite": "What is a database management system?",
+    "label": "site:https://www.oracle.com"
+  },
+  {
+    "querysite": "What is the importance of network security?",
+    "label": "site:https://www.cisa.gov"
+  },
+  {
+    "querysite": "What is digital transformation?",
+    "label": "site:https://www.ibm.com"
+  },
+  {
+    "querysite": "What is the role of an IT manager?",
+    "label": "site:https://www.ibm.com"
+  },
+  {
+    "querysite": "What is agile methodology?",
+    "label": "site:https://www.agilealliance.org"
+  },
+  { "querysite": "What is DevOps?", "label": "site:https://www.ibm.com" },
+  {
+    "querysite": "What is the significance of user experience design?",
+    "label": "site:https://www.uxdesign.cc"
+  },
+  {
+    "querysite": "What are the principles of web design?",
+    "label": "site:https://www.w3.org"
+  },
+  {
+    "querysite": "What is responsive web design?",
+    "label": "site:https://www.w3.org"
+  },
+  {
+    "querysite": "What is the importance of digital marketing?",
+    "label": "site:https://www.hubspot.com"
+  },
+  { "querysite": "What is SEO?", "label": "site:https://www.moz.com" },
+  {
+    "querysite": "What is content marketing?",
+    "label": "site:https://www.hubspot.com"
+  },
+  {
+    "querysite": "What is social media marketing?",
+    "label": "site:https://www.hubspot.com"
+  },
+  {
+    "querysite": "What is email marketing?",
+    "label": "site:https://www.hubspot.com"
+  },
+  {
+    "querysite": "What is pay-per-click advertising?",
+    "label": "site:https://www.hubspot.com"
+  },
+  {
+    "querysite": "What is influencer marketing?",
+    "label": "site:https://www.hubspot.com"
+  },
+  {
+    "querysite": "What is the importance of branding?",
+    "label": "site:https://www.hubspot.com"
+  },
+  {
+    "querysite": "What is market research?",
+    "label": "site:https://www.hubspot.com"
+  },
+  {
+    "querysite": "What is customer relationship management?",
+    "label": "site:https://www.salesforce.com"
+  },
+  {
+    "querysite": "What is product management?",
+    "label": "site:https://www.productmanagementtoday.com"
+  },
+  {
+    "querysite": "What is project management?",
+    "label": "site:https://www.pmi.org"
+  },
+  {
+    "querysite": "What is supply chain management?",
+    "label": "site:https://www.cscmp.org"
+  },
+  { "querysite": "What is logistics?", "label": "site:https://www.cscmp.org" },
+  {
+    "querysite": "What is the importance of financial management?",
+    "label": "site:https://www.investopedia.com"
+  },
+  {
+    "querysite": "What is corporate finance?",
+    "label": "site:https://www.investopedia.com"
+  },
+  {
+    "querysite": "What is investment banking?",
+    "label": "site:https://www.investopedia.com"
+  },
+  {
+    "querysite": "What is financial accounting?",
+    "label": "site:https://www.investopedia.com"
+  },
+  {
+    "querysite": "What is managerial accounting?",
+    "label": "site:https://www.investopedia.com"
+  },
+  {
+    "querysite": "What is auditing?",
+    "label": "site:https://www.investopedia.com"
+  },
+  {
+    "querysite": "What are financial statements?",
+    "label": "site:https://www.investopedia.com"
+  },
+  {
+    "querysite": "What is budgeting?",
+    "label": "site:https://www.investopedia.com"
+  },
+  {
+    "querysite": "What is cost accounting?",
+    "label": "site:https://www.investopedia.com"
+  },
+  {
+    "querysite": "What is the importance of human resource management?",
+    "label": "site:https://www.shrm.org"
+  },
+  {
+    "querysite": "What is talent management?",
+    "label": "site:https://www.shrm.org"
+  },
+  {
+    "querysite": "What is performance management?",
+    "label": "site:https://www.shrm.org"
+  },
+  {
+    "querysite": "What is employee engagement?",
+    "label": "site:https://www.shrm.org"
+  },
+  {
+    "querysite": "What is organizational development?",
+    "label": "site:https://www.shrm.org"
+  },
+  {
+    "querysite": "What is change management?",
+    "label": "site:https://www.shrm.org"
+  },
+  {
+    "querysite": "What is conflict resolution?",
+    "label": "site:https://www.shrm.org"
+  },
+  {
+    "querysite": "What is workplace diversity?",
+    "label": "site:https://www.shrm.org"
+  },
+  {
+    "querysite": "What is employee benefits management?",
+    "label": "site:https://www.shrm.org"
+  },
+  {
+    "querysite": "What is labor law compliance?",
+    "label": "site:https://www.dol.gov"
+  },
+  {
+    "querysite": "What is organizational behavior?",
+    "label": "site:https://www.shrm.org"
+  },
+  {
+    "querysite": "What is leadership development?",
+    "label": "site:https://www.shrm.org"
+  },
+  {
+    "querysite": "What is strategic human resource management?",
+    "label": "site:https://www.shrm.org"
+  },
+  {
+    "querysite": "What is business ethics?",
+    "label": "site:https://www.bentley.edu"
+  },
+  {
+    "querysite": "What is corporate social responsibility?",
+    "label": "site:https://www.bsr.org"
+  },
+  {
+    "querysite": "What is the importance of sustainability?",
+    "label": "site:https://www.un.org"
+  },
+  {
+    "querysite": "What is green business?",
+    "label": "site:https://www.greenbiz.com"
+  },
+  {
+    "querysite": "What is the importance of innovation?",
+    "label": "site:https://www.forbes.com"
+  },
+  {
+    "querysite": "What is entrepreneurship?",
+    "label": "site:https://www.forbes.com"
+  },
+  {
+    "querysite": "What is startup culture?",
+    "label": "site:https://www.forbes.com"
+  },
+  {
+    "querysite": "What is venture capital?",
+    "label": "site:https://www.forbes.com"
+  },
+  {
+    "querysite": "What is angel investing?",
+    "label": "site:https://www.forbes.com"
+  },
+  {
+    "querysite": "What is business incubation?",
+    "label": "site:https://www.forbes.com"
+  },
+  {
+    "querysite": "What is the gig economy?",
+    "label": "site:https://www.forbes.com"
+  },
+  {
+    "querysite": "What is remote work?",
+    "label": "site:https://www.forbes.com"
+  },
+  {
+    "querysite": "What is the future of work?",
+    "label": "site:https://www.forbes.com"
+  }
+]

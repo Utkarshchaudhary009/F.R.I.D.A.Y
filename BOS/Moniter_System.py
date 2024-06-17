@@ -4,6 +4,8 @@ import pyttsx3
 import time
 import sys
 import os
+import random
+from DLG import *
 
 # Get the parent directory of the current file (Moniter_System.py)
 parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
@@ -12,6 +14,8 @@ sys.path.append(parent_dir)
 
 from Brain.services.weather import get_weather
 from speak import speak
+from DLG import *
+from random import choice
 
 # Check RAM usage
 def check_ram():
@@ -22,10 +26,14 @@ def check_ram():
 # Check battery status
 def check_battery():
     battery = psutil.sensors_battery()
+    if battery.percent < 5 and not battery.power_plugged:
+        speak(choice(last_low))
+    if battery.percent < 10 and not battery.power_plugged:
+        speak("Sir we are running on baterry backup. last 10%")
     if battery.percent < 20 and not battery.power_plugged:
-        speak("Your battery is below 20%. Please plug in your charger.")
+        speak(choice(low_b))
     elif battery.percent == 99.50 and battery.power_plugged:
-        speak("Your battery is fully charged. You might want to unplug your charger.")
+        speak(choice(full_battery))
 
 # Check storage space
 def check_storage():
@@ -38,7 +46,7 @@ def check_internet():
     try:
         requests.get('https://www.google.com/', timeout=5)
     except requests.ConnectionError:
-        speak("You are not connected to the internet. Please check your connection.")
+        speak(choice(ofline_dlg))
     except:
         pass
 
@@ -63,15 +71,33 @@ def check_weather():
     else:
         print("Failed to retrieve weather information.")
 
+def check_plugin_status():
+    battery = psutil.sensors_battery()
+    previous_state = battery.power_plugged
+
+    while True:
+        battery = psutil.sensors_battery()
+
+        if battery.power_plugged != previous_state:
+            if battery.power_plugged:
+              random_low = random.choice(plug_in)
+              return random_low
+            else:
+              random_low = random.choice(plug_out)
+              return random_low
+
+        previous_state = battery.power_plugged
+
 # Main loop to check all metrics
 def monitor_system():
     while True:
+        time.sleep(17)
         check_ram()
         check_battery()
         check_storage()
         check_internet()
         #check_weather()
-        #time.sleep(3600)  # Check every hour
+        time.sleep(6000)  # Check every hour
 
 if __name__ == "__main__":
     

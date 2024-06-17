@@ -17,7 +17,7 @@ class IntentClassifier:
         intents_file_path = os.path.join(current_directory, intents_file)
         model_file_path = os.path.join(current_directory, model_file)
 
-        with open(intents_file_path) as file:
+        with open(intents_file_path, 'r', encoding='utf-8') as file:
             self.intents_data = json.load(file)
 
         with open(model_file_path, 'rb') as f:
@@ -59,7 +59,7 @@ def classify_command(command):
     print("Predicted Intent:", tag)
     print("Function:", function)
     print("Response:", response)
-    if tag not in ["search_wolframalpha", "search_wikipedia", "response","movie_detail","play_song","book"]:
+    if tag not in ["search_wolframalpha", "search_wikipedia", "response","movie_detail","play_song","book",'keymagic','translation','search_on_web','cricket']:
     # if tag not in ["search_wolframalpha", "search_wikipedia", "response","movie_detail"]:
         arguments = classifier.extract_arguments(command, tag)
         print("1234567890 : ", arguments)

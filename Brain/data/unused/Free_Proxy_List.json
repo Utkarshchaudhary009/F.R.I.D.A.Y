@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "6305d0b0de95dae521a7172d",
+    "ip": "43.225.163.209",
+    "anonymityLevel": "elite",
+    "asn": "AS133001",
+    "city": "Mumbai",
+    "country": "IN",
+    "created_at": "2022-08-24T07:18:08.619Z",
+    "google": false,
+    "isp": "Airnet Cable And Datacom Pvt Ltd",
+    "lastChecked": 1718251953,
+    "latency": 123.665,
+    "org": "AIRNETNETWORKS",
+    "port": "4153",
+    "protocols": ["socks4"],
+    "region": null,
+    "responseTime": 76,
+    "speed": 1,
+    "updated_at": "2024-06-13T04:12:33.402Z",
+    "workingPercent": null,
+    "upTime": 99.08269441401971,
+    "upTimeSuccessCount": 7237,
+    "upTimeTryCount": 7304
+  }
+]

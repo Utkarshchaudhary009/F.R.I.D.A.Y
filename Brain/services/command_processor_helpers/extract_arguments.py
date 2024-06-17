@@ -15,7 +15,7 @@ def extract_arguments(command, intent_tag, tokens, pos_tags, entities, intents):
         arg_name = arg["name"]
         arg_types = set(arg["types"])
 
-    if arg_name not in arguments:
+    
         for token in tokens:
             token_lower = token.lower()
             if pos_dict.get(token_lower) in arg_types:

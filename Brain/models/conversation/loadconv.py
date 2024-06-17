@@ -35,7 +35,8 @@ queries = [
     "tell me a joke siri",
     "who created you",
     "how are you doing today?",
-    "what can you do?"
+    "i am joining a new hobbi",
+    "love me"
 ]
 
 # Iterate through the queries and print the responses

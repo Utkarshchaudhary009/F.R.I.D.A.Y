@@ -10,6 +10,9 @@ def change_brightness(arguments):
     action = arguments.get("action")
     value = arguments.get("value")
     
+    if '%' not in value:
+        value = f'{value}%'
+    
     current_brightness = sbc.get_brightness()[0]
     
     if value.endswith('%'):

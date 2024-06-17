@@ -4,14 +4,14 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.preprocessing import LabelEncoder
 from sklearn.svm import SVC
 import pickle
-
+import os
 # Load intents
-with open('./trainingIntent.json') as file:
+with open('./trainingIntent.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 # Initialize spacy
 nlp = spacy.load('en_core_web_sm')
-
+# os.remove('./intent_models-TOF-v1.pkl')
 # Extract patterns, tags, function names, and responses
 patterns = []
 tags = []

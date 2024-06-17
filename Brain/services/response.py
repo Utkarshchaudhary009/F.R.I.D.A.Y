@@ -8,7 +8,46 @@ import random
 import pickle
 import random
 import json
+import datetime
+from datetime import datetime
+import inflect
 
+# Initialize inflect engine
+p = inflect.engine()
+
+# Function to convert a number to its written form
+def number_to_words(number):
+    return p.number_to_words(number).replace('-', ' ')
+
+# Function to get current date, day, and time in written format
+def get_written_date_time():
+    now = datetime.now()
+    
+    # Get current date parts
+    day = now.day
+    month = now.strftime("%B")
+    year = now.year
+
+    # Get current time parts
+    hour = now.hour
+    minute = now.minute
+    second = now.second
+
+    # Convert each part to words
+    written_day = number_to_words(day)
+    written_year = number_to_words(year)
+    written_hour = number_to_words(hour)
+    written_minute = number_to_words(minute)
+    written_second = number_to_words(second)
+
+    # Construct the written date and time
+    written_date = f"{written_day} {month} {written_year}"
+    written_time = f"{written_hour} {written_minute} {written_second}"
+
+    # Get current weekday
+    weekday = now.strftime("%A")
+
+    return {"Date": {written_date}, "Day": {weekday}, "Time": {written_time}}
 # Load the model from the .pkl file
 with open('f:\Friday\Brain/models/conversation/query_type_model.pkl', 'rb') as f:
     model = pickle.load(f)
@@ -33,7 +72,18 @@ def RFM(query):
     else:
         predicted_query_type =model.predict([query])[0]
         if predicted_query_type in data["responses"]:
-            return random.choice(data["responses"][predicted_query_type])
+            timeData=get_written_date_time()
+            print(timeData)
+            res=random.choice(data["responses"][predicted_query_type])
+            print(res)
+            if "{date}" in res:
+                return res.format(date=timeData["Date"])
+            elif "{day}" in res:
+                return res.format(day=timeData["Day"])
+            elif "{time}" in res:
+                return res.format(time=timeData["Time"])
+            else:
+                return res
         else:
             return "I'm not sure how to respond to that."
 
@@ -41,6 +91,7 @@ def RFM(query):
 
 def get_response(user_input):
         user_input = user_input.lower()
+        
         return {"response":RFM(user_input)}
 
 # Example Usage
@@ -62,7 +113,8 @@ if __name__ == "__main__":
     "tell me a joke siri",
     "who created you",
     "how are you doing today?",
-    "what can you do?"
+    "what can you do?",
+    "tell me the time"
     ]
     # Get responses for example inputs
     for inp in inputs:
