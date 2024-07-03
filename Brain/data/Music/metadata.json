@@ -1,0 +1,40 @@
+{
+    "Tu hai kahan": {
+        "title": "Tu hai kahan",
+        "artists": "AUR",
+        "album": "Tu hai kahan",
+        "release_date": "2023-06-10"
+    },
+    "Cheques (Music Video)": {
+        "title": "Cheques (Music Video)",
+        "artists": "Shubh",
+        "album": "Cheques (Music Video)",
+        "release_date": "2023-07-21"
+    },
+    "Shikayat": {
+        "title": "Shikayat",
+        "artists": "Uraan",
+        "album": "Shikayat",
+        "release_date": "2023-12-15"
+    },
+    "\uc378 \ud0c8\uaebc\uc57c": {
+        "title": "\uc378 \ud0c8\uaebc\uc57c",
+        "artists": "BOL4",
+        "album": "\uc378 \ud0c8\uaebc\uc57c",
+        "release_date": "2017-09-28"
+    },
+    "Sanam Re - Instrumental": {
+        "title": "Sanam Re - Instrumental",
+        "artists": "Most Romantic Songs \ud83d\udc98 | T-Series Non Stop Love-Mix\ud83c\udfb6\ud83d\udc97 | Feeling of First Love \ud83d\ude0d",
+        "album": "Sanam Re - Instrumental",
+        "release_date": "2016-02-26",
+        "thumbnail_url": "https://i.ytimg.com/vi/DS-raAyMxl4/hq720.jpg?sqp=-oaymwEXCNUGEOADIAQqCwjVARCqCBh4INgESFo&rs=AOn4CLBk0I7P795t-9BVA2qqfZ9ZtcrriA"
+    },
+    "Burning Up (FIRE)": {
+        "title": "Burning Up (FIRE)",
+        "artists": "BTS",
+        "album": "Burning Up (FIRE)",
+        "release_date": "2016-05-01",
+        "thumbnail_url": "https://i.ytimg.com/vi/ALj5MKjy2BU/hq720.jpg?sqp=-oaymwEXCNUGEOADIAQqCwjVARCqCBh4INgESFo&rs=AOn4CLDcFr7lwVZyrA7R3uDNlsKFzul-ig"
+    }
+}

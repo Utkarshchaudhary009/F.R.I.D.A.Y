@@ -1,0 +1,39 @@
+{
+    "id": "gjibDi0Y1zKLlURhMW",
+    "created": "2024-06-19T03:58:36.317Z",
+    "input": {
+      "output_format": "mp3",
+      "quality": "high",
+      "sample_rate": 24000,
+      "seed": null,
+      "speed": 0.8,
+      "temperature": null,
+      "text": "Hello from a realistic voice.",
+      "voice": "s3://voice-cloning-zero-shot/d9ff78ba-d016-47f6-b0ef-dd630f59414e/female-cs/manifest.json"
+    },
+    "status": "pending",
+    "output": null,
+    "_links": [
+      {
+        "contentType": "application/json",
+        "description": "Fetches this job's data. Poll it for the latest status.",
+        "href": "https://api.play.ht/api/v2/tts/gjibDi0Y1zKLlURhMW",
+        "method": "GET",
+        "rel": "self"
+      },
+      {
+        "contentType": "text/event-stream",
+        "description": "Fetches (live) the job status (in SSE/text stream format) as the generation progresses.",
+        "href": "https://api.play.ht/api/v2/tts/gjibDi0Y1zKLlURhMW?format=event-stream",
+        "method": "GET",
+        "rel": "related"
+      },
+      {
+        "contentType": "audio/mpeg",
+        "description": "Streams the audio bytes.",
+        "href": "https://api.play.ht/api/v2/tts/gjibDi0Y1zKLlURhMW?format=audio-mpeg",
+        "method": "GET",
+        "rel": "related"
+      }
+    ]
+  }

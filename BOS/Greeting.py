@@ -10,6 +10,7 @@ parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 sys.path.append(parent_dir)
 
 from Brain.services.weather import get_weather
+from BOS.Speak.playHT import playHT
 
 # Placeholder for the imported function
 def check_reminder():
@@ -33,7 +34,7 @@ def check_reminder():
     return None
 
 def get_time_of_day():
-    current_hour = datetime.now().hour
+    current_hour = 22 #datetime.now().hour
     if 5 <= current_hour < 12:
         return "morning"
     elif 12 <= current_hour < 17:
@@ -108,7 +109,8 @@ def advanced_greeting(user_name, mood=None):
         location = weather_data["location"]
         weather = weather_data["weather"]
         greeting += random.choice(weather_comments).format(location=location, weather=weather)
-
+    else:
+        print("earr in providing weather")
     # # Emotion and sentiment
     # if mood == "happy":
     #     greeting += random.choice(happy_responses)
@@ -128,7 +130,9 @@ def advanced_greeting(user_name, mood=None):
 # Check weather
 def check_weather():
     try:
+         print(get_weather())
          weather_data = get_weather()  # Assuming get_weather() returns a dictionary
+         print(weather_data)
          if weather_data:
              data = weather_data.get('data')
              location = weather_data.get('location')
@@ -143,10 +147,12 @@ def check_weather():
                  print("Failed to retrieve weather data.")
          else:
              print("Failed to retrieve weather information.")
-         return None
+             return None
     except:
         None
         
 # Example usage
 if __name__ == "__main__":
-    print(advanced_greeting("Utkarsh"))
+    while True:
+        playHT(advanced_greeting("Utkarsh"))
+        print(advanced_greeting("Utkarsh"))

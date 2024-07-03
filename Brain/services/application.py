@@ -11,7 +11,7 @@ base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 data_file_path = os.path.join(base_dir, 'data', 'application_map.json')
 
 def open_application(arguments):
-    application = arguments.get("application")
+    application = arguments.get("application").lower().replace("ms","").replace("microsoft","")
 
     if not application:
         return {"response": "Please specify the application to open."}
@@ -22,7 +22,7 @@ def open_application(arguments):
             app_map = json.load(file)
 
         # Find the command to run the application
-        app_command = app_map.get(application.lower())
+        app_command = app_map.get(application.strip())
 
         if app_command:
             os.system(app_command)

@@ -82,10 +82,10 @@ try:
     time.sleep(14.5)
     speak(advanced_greeting(data.get('firstName', 'Mr.Unknown')))
     while True:
-        command = listen()
+        # command = listen()
         logger.info(f"Command received: {command}")
-        if any(cmd.lower() in command.lower() for cmd in ['friday stop', 'shutdown', 'friday exit', 'exit', 'friday close', 'friday disconnect', 'friday kill yourself', 'kill yourself', 'Friday shutdown', 'Friday switchoff', 'Switchoff', 'Friday switch off', 'switch off', 'shutdown', 'Friday power off', 'friday power off', 'friday formula 404', 'pride stop']):
-            exit_message = f"Ok Sir! Friday is disconnecting. See you later, {data.get('firstName', 'Mr.Unknown')}!"
+        if any(cmd.lower() in command.lower() for cmd in ['friday stop',"system close", 'shutdown', 'friday exit', 'exit', 'friday close', 'friday disconnect', 'friday kill yourself', 'kill yourself', 'Friday shutdown', 'Friday switchoff', 'Switchoff', 'Friday switch off', 'switch off', 'shutdown', 'Friday power off', 'friday power off', 'friday formula 404', 'pride stop']):
+            exit_message = f"Ok Sir! Friday is disconnecting. See you later, {data.get('firstName', 'Mr.Unknown')}."
             logger.info(exit_message)
             speak(exit_message)
             # Ensure the Flask app subprocess is terminated
@@ -93,7 +93,7 @@ try:
             shutdown_audio_thread.start()
             time.sleep(1.1)
             break
-        elif command == '':
+        elif command == '' or command == 'but' or command == "None":
             pass
         else:
             command = command.lower().replace("friday", "").strip()

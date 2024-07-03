@@ -6,7 +6,7 @@ import sys
 
 def change_volume(arguments):
     action = arguments.get("action")
-    value = arguments.get("value")
+    value = arguments.get("value","10")
     
     if '%' not in value:
         value = f'{value}%'

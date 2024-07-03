@@ -87,7 +87,7 @@ def fetch_html(url):
 def parse_html(html_content):
     return BeautifulSoup(html_content, 'html.parser')
 
-def extract_sentences_from_paragraphs(soup,site):
+def extract_sentences_from_paragraphs(soup,site="none"):
     if "site:https://marvelcinematicuniverse.fandom.com" in site:
         # Find the first <div> with the class 'quick-answers__answer-text'
         answer_div = soup.find('div', class_='quick-answers__answer-text')
@@ -173,10 +173,11 @@ def google_search(url):
 def webSearch(cquery):
     # cquery=clean_query(query)
     # Example usage:
-    site = model.predict([cquery])[0]
+    #site = model.predict([cquery])[0]
         # Format the Google search URL
     
-    search_query = f"{cquery} {site}"
+    search_query = f"{cquery}"
+    # search_query = f"{cquery} {site}"
     encoded_query = quote_plus(search_query)
     google_url = f"https://www.google.com/search?q={encoded_query}"
 
@@ -196,7 +197,8 @@ def webSearch(cquery):
         soup = parse_html(html_content)
 
         # Priority 1: Extract first two sentences from paragraphs
-        sentences = clean_output(extract_sentences_from_paragraphs(soup,site))
+        sentences = clean_output(extract_sentences_from_paragraphs(soup))
+        # sentences = clean_output(extract_sentences_from_paragraphs(soup,site))
         if sentences:
             # print("\n")
             # print(sentences)

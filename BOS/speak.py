@@ -1,21 +1,10 @@
-import pyttsx3
-from gtts import gTTS
-import os
-from time import sleep
-import sounddevice as sd
-import pygame
 from rich.console import Console
 from rich.progress import track
 from textblob import TextBlob
+from Speak.googlespeak import googlespeak
 console = Console()
 from NetHyTech_Pyttsx3_Speak import speak as NetHyTech_Speak
-def play_audio(file_path):
-    pygame.init()
-    sound = pygame.mixer.Sound(file_path)
-    sound.play()
-    pygame.time.wait(int(sound.get_length() * 1000))  # Wait for the sound to finish playing
-    pygame.quit()  # Quit pygame to release resources
-
+from Speak.playHT import playHT
 # # Emotion detection based on keywords
 # def detect_emotion(text):
 #     emotion_keywords = {
@@ -131,44 +120,22 @@ def play_audio(file_path):
 #         console.print(f"Text spoken using pyttsx3: [bold green]{text}[/bold green]")
 #     except Exception as e:
 #         console.print(f"Error with pyttsx3: [bold red]{e}[/bold red]")
-
-def googlespeak(text, lang='en', output_dir="F:/Friday/brain/data/cache/.speak"):
-    try:
-        # Create the output directory if it doesn't exist
-        if not os.path.exists(output_dir):
-            os.makedirs(output_dir)
-        
-        # Generate a unique filename based on the text
-        safe_text = "".join(x for x in text if x.isalnum())
-        output_file = f"{safe_text}.mp3"
-        output_path = os.path.join(output_dir, output_file)
-        
-        # Check if the file already exists
-        if os.path.isfile(output_path):
-            console.print(f"[bold blue]Playing existing file for text: [/bold blue][bold green]{text}[/bold green]")
-            play_audio(output_path)
-        else:
-            console.print(f"[bold blue]Generating new file for text: [/bold blue][bold green]{text}[/bold green]")
-            # Generate speech using gTTS
-            tts = gTTS(text=text, lang=lang, tld='com', lang_check=True)
-            # Save the speech to a file
-            tts.save(output_path)
-            # Play the speech
-            play_audio(output_path)
-    except Exception as e:
-        console.print(f"Error with Google TTS: [bold red]{e}[/bold red]")
-
 def speak(text):
     try:
-            # pyttsx(text)
-            NetHyTech_Speak(text,1)
-    except Exception as e:
-        console.print(f"Google TTS failed, falling back to pyttsx3: [bold yellow]{e}[/bold yellow]")
+         playHT(text)
+    except:
         try:
-             googlespeak(text)
+                # pyttsx(text)
+                NetHyTech_Speak(text,1)
         except Exception as e:
-            console.print(f"An error occurred: [bold red]{e}[/bold red]")
+            console.print(f"Google TTS failed, falling back to pyttsx3: [bold yellow]{e}[/bold yellow]")
+            try:
+                googlespeak(text)
+            except Exception as e:
+                console.print(f"An error occurred: [bold red]{e}[/bold red]")
 
 if __name__ == "__main__":
-    text = console.input("[bold voilet]Enter the text you want the computer to speak: [/bold voilet]")
-    speak(text)
+    while True:
+        # text = console.input("[bold voilet]Enter the text you want the computer to speak: [/bold voilet]")
+        text = console.input("[bold voilet]Enter the text you want the computer to speak: [/bold voilet]")
+        speak(text)

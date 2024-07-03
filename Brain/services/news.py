@@ -83,5 +83,5 @@ def get_news(time=None, category=None):
 
 # Example usage
 if __name__ == "__main__":
-    speak("Why worry about tomorrow when today is already so interesting?")
-    print(get_news(time='today', category='technology').get("response"))
+    # speak("Why worry about tomorrow when today is already so interesting?")
+    speak(get_news().get("response"))
